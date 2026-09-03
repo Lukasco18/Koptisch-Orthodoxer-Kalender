@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koptisch-Orthodoxer Kalender 2026–2027</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --primary-hover: #1e40af;
+            --accent: #d97706;
+            --bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text: #1e293b;
+            --text-muted: #64748b;
+            --border: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            padding: 20px 15px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            color: white;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.25);
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto 25px auto;
+        }
+
+        .actions {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: 10px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 1rem;
+        }
+
+        .btn-primary {
+            background-color: white;
+            color: var(--primary);
+        }
+
+        .btn-primary:hover {
+            background-color: #f1f5f9;
+            transform: translateY(-2px);
+        }
+
+        .btn-secondary {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            backdrop-filter: blur(5px);
+        }
+
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .card {
+            background: var(--card-bg);
+            border-radius: 14px;
+            padding: 25px;
+            margin-bottom: 25px;
+            border: 1px solid var(--border);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        .card h2 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+            border-bottom: 2px solid var(--bg);
+            padding-bottom: 8px;
+        }
+
+        .legend-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 12px;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 12px;
+            background: var(--bg);
+            border-radius: 8px;
+            font-size: 0.95rem;
+        }
+
+        .legend-icon {
+            font-size: 1.3rem;
+        }
+
+        .events-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .event-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 16px;
+            border-radius: 10px;
+            background: var(--bg);
+            transition: background 0.2s ease;
+        }
+
+        .event-row:hover {
+            background: #f1f5f9;
+        }
+
+        .event-info {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .event-title {
+            font-weight: 600;
+        }
+
+        .event-date {
+            font-weight: 600;
+            color: var(--primary);
+            white-space: nowrap;
+            font-size: 0.95rem;
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.75rem; }
+            .event-row { flex-direction: column; align-items: flex-start; gap: 5px; }
+            .event-date { align-self: flex-end; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Koptisch-Orthodoxer Kalender</h1>
+        <p>Festtage, Herrenfeste und Fastenzeiten für die Jahre 2026–2027</p>
+        <div class="actions">
+            <a href="webcal://lukasco18.github.io/Koptisch-Orthodoxer-Kalender/kalender.ics" class="btn btn-primary">
+                📅 Direkt abonnieren (iOS / Mac)
+            </a>
+            <a href="kalender.ics" download class="btn btn-secondary">
+                ⬇️ ICS-Datei herunterladen
+            </a>
+        </div>
+    </header>
+
+    <!-- Legende -->
+    <div class="card">
+        <h2>Legende</h2>
+        <div class="legend-grid">
+            <div class="legend-item"><span class="legend-icon">🎉</span> Festtag / Herrenfest</div>
+            <div class="legend-item"><span class="legend-icon">🐟</span> Fisch erlaubt</div>
+            <div class="legend-item"><span class="legend-icon">🚫</span> Fisch nicht erlaubt</div>
+            <div class="legend-item"><span class="legend-icon">⚠️</span> Mi & Fr: kein Fisch</div>
+            <div class="legend-item"><span class="legend-icon">⛔</span> Strenges Fasten</div>
+        </div>
+    </div>
+
+    <!-- Große Herrenfeste 2026 -->
+    <div class="card">
+        <h2>Die 7 großen Herrenfeste (2026)</h2>
+        <div class="events-list">
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Geburt Christi (Weihnachten)</div></div>
+                <div class="event-date">Mi, 07. Jan 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Taufe Jesu (Epiphanias)</div></div>
+                <div class="event-date">Mo, 19. Jan 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Verkündigung des Herrn</div></div>
+                <div class="event-date">Di, 07. Apr 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Palmsonntag</div></div>
+                <div class="event-date">So, 05. Apr 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Auferstehung (Ostern)</div></div>
+                <div class="event-date">So, 12. Apr 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Christi Himmelfahrt</div></div>
+                <div class="event-date">Do, 21. Mai 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Pfingsten</div></div>
+                <div class="event-date">So, 31. Mai 2026</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Kleine Herrenfeste 2026 -->
+    <div class="card">
+        <h2>Die 7 kleinen Herrenfeste (2026)</h2>
+        <div class="events-list">
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Beschneidung des Herrn</div></div>
+                <div class="event-date">Mi, 14. Jan 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Erstes Wunder Jesu (Hochzeit zu Kana)</div></div>
+                <div class="event-date">Mi, 21. Jan 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Eintritt Jesu in den Tempel</div></div>
+                <div class="event-date">So, 15. Feb 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>⛔</span><div class="event-title">Donnerstag des Bundes (Gründonnerstag)</div></div>
+                <div class="event-date">Do, 09. Apr 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Thomas Sonntag</div></div>
+                <div class="event-date">So, 19. Apr 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Einzug der Hl. Familie in Ägypten</div></div>
+                <div class="event-date">Mo, 01. Jun 2026</div>
+            </div>
+            <div class="event-row">
+                <div class="event-info"><span>🎉</span><div class="event-title">Verklärung Jesu</div></div>
+                <div class="event-date">Mi, 19. Aug 2026</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Einbindungs-Anleitung -->
+    <div class="card instructions">
+        <h2>Kalender auf dem Smartphone einbinden</h2>
+        <ol>
+            <li><strong>iPhone / iPad:</strong> Klicke ganz oben einfach auf <em>"Direkt abonnieren"</em>. Apple Kalender öffnet sich und fragt nach der Bestätigung.</li>
+            <li><strong>Google Kalender (Android / PC):</strong> Kopiere den Link der <code>.ics</code>-Datei. Gehe in Google Kalender auf <em>"Weitere Kalender" (+)</em> &rarr; <em>"Per URL"</em> und füge den Link ein.</li>
+            <li><strong>Outlook / Mac:</strong> Datei herunterladen und per Doppelklick in deiner Kalender-Anwendung öffnen.</li>
+        </ol>
+    </div>
+
+    <footer>
+        <p>&copy; Koptisch-Orthodoxer Kalender | Bereitgestellt via GitHub Pages</p>
+    </footer>
+</div>
+
+</body>
+</html>
