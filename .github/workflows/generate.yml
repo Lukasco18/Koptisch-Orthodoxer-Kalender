@@ -1,0 +1,30 @@
+name: Kalender automatisch generieren
+
+on:
+  push:
+    branches: [ main ]
+  schedule:
+    - cron: '0 0 1 1 *'  # Läuft automatisch jeden 1. Januar
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Skript ausführen und ICS-Datei erstellen
+        run: python generate_calendar.py
+
+      - name: Änderungen speichern und veröffentlichen
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add kalender.ics
+          git diff-index --quiet HEAD || git commit -m "Kalender automatisch aktualisiert"
+          git push
