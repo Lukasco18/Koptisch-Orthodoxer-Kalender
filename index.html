@@ -7,13 +7,54 @@
     <style>
         :root {
             --primary: #1e3a8a;
-            --primary-hover: #1e40af;
+            --primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
             --accent: #d97706;
             --bg: #f8fafc;
             --card-bg: #ffffff;
             --text: #1e293b;
             --text-muted: #64748b;
             --border: #e2e8f0;
+            --row-hover: #f1f5f9;
+            --switcher-bg: #e2e8f0;
+            --switcher-active: #ffffff;
+            --cross-stroke: #1b2e4b;
+            --cross-accent: #1e3a8a;
+        }
+
+        /* Automatisch dunkles Design über Systemeinstellung */
+        @media (prefers-color-scheme: dark) {
+            :root:not([data-theme="light"]) {
+                --primary: #60a5fa;
+                --primary-gradient: linear-gradient(135deg, #0b1329 0%, #1e3a8a 100%);
+                --accent: #fbbf24;
+                --bg: #0b0f19;
+                --card-bg: #161f33;
+                --text: #f1f5f9;
+                --text-muted: #94a3b8;
+                --border: #243049;
+                --row-hover: #1e2d4a;
+                --switcher-bg: #1e293b;
+                --switcher-active: #334155;
+                --cross-stroke: #0f172a;
+                --cross-accent: #1e3a8a;
+            }
+        }
+
+        /* Manuell erzwungener Dark Mode */
+        [data-theme="dark"] {
+            --primary: #60a5fa;
+            --primary-gradient: linear-gradient(135deg, #0b1329 0%, #1e3a8a 100%);
+            --accent: #fbbf24;
+            --bg: #0b0f19;
+            --card-bg: #161f33;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --border: #243049;
+            --row-hover: #1e2d4a;
+            --switcher-bg: #1e293b;
+            --switcher-active: #334155;
+            --cross-stroke: #0f172a;
+            --cross-accent: #1e3a8a;
         }
 
         * {
@@ -27,40 +68,97 @@
             background-color: var(--bg);
             color: var(--text);
             line-height: 1.6;
-            padding: 20px 15px;
+            padding: 24px 16px;
+            transition: background-color 0.3s, color 0.3s;
         }
 
         .container {
-            max-width: 900px;
+            max-width: 860px;
             margin: 0 auto;
+        }
+
+        /* Theme Switcher Header Bar */
+        .top-bar {
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 16px;
+        }
+
+        .theme-switcher {
+            display: inline-flex;
+            background: var(--switcher-bg);
+            padding: 4px;
+            border-radius: 12px;
+            gap: 4px;
+            border: 1px solid var(--border);
+        }
+
+        .theme-btn {
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            padding: 6px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            font-weight: 600;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .theme-btn.active {
+            background: var(--switcher-active);
+            color: var(--text);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
         header {
             text-align: center;
             padding: 40px 20px;
-            background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+            background: var(--primary-gradient);
             color: white;
-            border-radius: 16px;
+            border-radius: 20px;
             margin-bottom: 30px;
-            box-shadow: 0 10px 25px -5px rgba(30, 58, 138, 0.25);
+            box-shadow: 0 12px 30px -8px rgba(0, 0, 0, 0.35);
+            border: 1px solid var(--border);
+        }
+
+        /* Integriertes Koptisches Kreuz */
+        .coptic-cross-svg {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 15px auto;
+            display: block;
+        }
+
+        .coptic-text {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 15px;
+            font-weight: bold;
+            text-anchor: middle;
+            dominant-baseline: central;
+            fill: #ffffff;
+            filter: drop-shadow(0px 1px 3px rgba(0,0,0,0.9));
         }
 
         header h1 {
-            font-size: 2.2rem;
-            margin-bottom: 10px;
+            font-size: 2.1rem;
+            margin-bottom: 8px;
             font-weight: 700;
         }
 
         header p {
-            font-size: 1.1rem;
-            opacity: 0.9;
-            max-width: 600px;
-            margin: 0 auto 25px auto;
+            font-size: 1.05rem;
+            opacity: 0.92;
+            max-width: 580px;
+            margin: 0 auto 28px auto;
         }
 
         .actions {
             display: flex;
-            gap: 15px;
+            gap: 14px;
             justify-content: center;
             flex-wrap: wrap;
         }
@@ -69,55 +167,56 @@
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 12px 24px;
-            border-radius: 10px;
+            padding: 13px 24px;
+            border-radius: 12px;
             font-weight: 600;
             text-decoration: none;
             transition: all 0.2s ease;
-            font-size: 1rem;
+            font-size: 0.98rem;
         }
 
         .btn-primary {
-            background-color: white;
-            color: var(--primary);
+            background-color: #ffffff;
+            color: #1e3a8a;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         }
 
         .btn-primary:hover {
-            background-color: #f1f5f9;
             transform: translateY(-2px);
         }
 
         .btn-secondary {
-            background-color: rgba(255, 255, 255, 0.2);
-            color: white;
-            backdrop-filter: blur(5px);
+            background-color: rgba(255, 255, 255, 0.18);
+            color: #ffffff;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.25);
         }
 
         .btn-secondary:hover {
-            background-color: rgba(255, 255, 255, 0.3);
+            background-color: rgba(255, 255, 255, 0.28);
             transform: translateY(-2px);
         }
 
         .card {
             background: var(--card-bg);
-            border-radius: 14px;
-            padding: 25px;
-            margin-bottom: 25px;
+            border-radius: 16px;
+            padding: 26px;
+            margin-bottom: 24px;
             border: 1px solid var(--border);
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.06);
         }
 
         .card h2 {
-            font-size: 1.4rem;
+            font-size: 1.35rem;
             color: var(--primary);
-            margin-bottom: 15px;
-            border-bottom: 2px solid var(--bg);
-            padding-bottom: 8px;
+            margin-bottom: 18px;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 10px;
         }
 
         .legend-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
             gap: 12px;
         }
 
@@ -125,20 +224,17 @@
             display: flex;
             align-items: center;
             gap: 10px;
-            padding: 8px 12px;
+            padding: 10px 14px;
             background: var(--bg);
-            border-radius: 8px;
-            font-size: 0.95rem;
-        }
-
-        .legend-icon {
-            font-size: 1.3rem;
+            border-radius: 10px;
+            font-size: 0.92rem;
+            border: 1px solid var(--border);
         }
 
         .events-list {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 10px;
         }
 
         .event-row {
@@ -149,10 +245,11 @@
             border-radius: 10px;
             background: var(--bg);
             transition: background 0.2s ease;
+            border: 1px solid var(--border);
         }
 
         .event-row:hover {
-            background: #f1f5f9;
+            background: var(--row-hover);
         }
 
         .event-info {
@@ -167,7 +264,7 @@
 
         .event-date {
             font-weight: 600;
-            color: var(--primary);
+            color: var(--accent);
             white-space: nowrap;
             font-size: 0.95rem;
         }
@@ -182,14 +279,14 @@
 
         footer {
             text-align: center;
-            padding: 20px;
+            padding: 25px 10px;
             color: var(--text-muted);
-            font-size: 0.9rem;
+            font-size: 0.88rem;
         }
 
         @media (max-width: 600px) {
-            header h1 { font-size: 1.75rem; }
-            .event-row { flex-direction: column; align-items: flex-start; gap: 5px; }
+            header h1 { font-size: 1.7rem; }
+            .event-row { flex-direction: column; align-items: flex-start; gap: 6px; }
             .event-date { align-self: flex-end; }
         }
     </style>
@@ -197,9 +294,80 @@
 <body>
 
 <div class="container">
+    <!-- Design-Schalter -->
+    <div class="top-bar">
+        <div class="theme-switcher">
+            <button class="theme-btn" id="btn-light" onclick="setTheme('light')">☀️ Hell</button>
+            <button class="theme-btn" id="btn-dark" onclick="setTheme('dark')">🌙 Dunkel</button>
+            <button class="theme-btn" id="btn-system" onclick="setTheme('system')">💻 System</button>
+        </div>
+    </div>
+
     <header>
+        <!-- Direkt eingebettetes Koptisches Kreuz (SVG Vector Graphics) -->
+        <svg class="coptic-cross-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#fef08a" />
+                    <stop offset="50%" stop-color="#f59e0b" />
+                    <stop offset="100%" stop-color="#b45309" />
+                </linearGradient>
+                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.5"/>
+                </filter>
+            </defs>
+
+            <!-- Koptische Kreuzform (12 Spitzen) -->
+            <path d="
+                M 100,12 
+                L 114,30 L 108,36 L 126,44 L 114,56 L 114,86 
+                L 144,86 L 156,74 L 164,80 L 168,86 L 188,100 
+                L 168,114 L 164,120 L 156,126 L 144,114 L 114,114 
+                L 114,144 L 126,156 L 120,162 L 114,168 L 100,188 
+                L 86,168 L 80,162 L 74,156 L 86,144 L 86,114 
+                L 56,114 L 44,126 L 36,120 L 32,114 L 12,100 
+                L 32,86 L 36,80 L 44,74 L 56,86 L 86,86 
+                L 86,56 L 74,44 L 80,36 L 86,30 Z
+            " fill="url(#goldGrad)" stroke="var(--cross-stroke)" stroke-width="4" stroke-linejoin="round" filter="url(#shadow)" />
+
+            <!-- Innen-Kontur -->
+            <path d="
+                M 100,22 
+                L 110,34 L 106,38 L 120,44 L 110,54 L 110,90 
+                L 146,90 L 156,80 L 162,84 L 164,90 L 178,100 
+                L 164,110 L 162,116 L 156,120 L 146,110 L 110,110 
+                L 110,146 L 120,156 L 116,160 L 110,164 L 100,178 
+                L 90,164 L 84,160 L 80,156 L 90,146 L 90,110 
+                L 54,110 L 44,120 L 38,116 L 36,110 L 22,100 
+                L 36,90 L 38,84 L 44,80 L 54,90 L 90,90 
+                L 90,54 L 80,44 L 84,38 L 90,34 Z
+            " fill="none" stroke="var(--cross-accent)" stroke-width="2" />
+
+            <!-- Zentrales Emblem -->
+            <circle cx="100" cy="100" r="26" fill="url(#goldGrad)" stroke="var(--cross-accent)" stroke-width="3" />
+            <circle cx="100" cy="100" r="20" fill="none" stroke="var(--cross-accent)" stroke-width="1.5" />
+            <circle cx="100" cy="100" r="6" fill="#dc2626" stroke="var(--cross-accent)" stroke-width="1" />
+            
+            <!-- Kreuzstrahlen im Zentrum -->
+            <path d="M 100,76 L 100,124 M 76,100 L 124,100" stroke="var(--cross-accent)" stroke-width="2.5" />
+            <path d="M 85,85 L 115,115 M 115,85 L 85,115" stroke="#dc2626" stroke-width="1.5" />
+
+            <!-- Ornamentale Bogen in den Arm-Zentren -->
+            <path d="M 100,42 C 92,50 92,68 100,74 C 108,68 108,50 100,42 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
+            <path d="M 100,158 C 92,150 92,132 100,126 C 108,132 108,150 100,158 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
+            <path d="M 42,100 C 50,92 68,92 74,100 C 68,108 50,108 42,100 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
+            <path d="M 158,100 C 150,92 132,92 126,100 C 132,108 150,108 158,100 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
+
+            <!-- Koptische Buchstaben in den 4 Ecken -->
+            <text x="36" y="44" class="coptic-text">І̄Н̄С</text>
+            <text x="164" y="44" class="coptic-text">П̄Х̄С</text>
+            <text x="36" y="168" class="coptic-text">П̄ШИРІ</text>
+            <text x="164" y="168" class="coptic-text">М̄Ф̄Т̄</text>
+        </svg>
+
         <h1>Koptisch-Orthodoxer Kalender</h1>
         <p>Festtage, Herrenfeste und Fastenzeiten für die Jahre 2026–2027</p>
+        
         <div class="actions">
             <a href="webcal://lukasco18.github.io/Koptisch-Orthodoxer-Kalender/kalender.ics" class="btn btn-primary">
                 📅 Direkt abonnieren (iOS / Mac)
@@ -214,11 +382,11 @@
     <div class="card">
         <h2>Legende</h2>
         <div class="legend-grid">
-            <div class="legend-item"><span class="legend-icon">🎉</span> Festtag / Herrenfest</div>
-            <div class="legend-item"><span class="legend-icon">🐟</span> Fisch erlaubt</div>
-            <div class="legend-item"><span class="legend-icon">🚫</span> Fisch nicht erlaubt</div>
-            <div class="legend-item"><span class="legend-icon">⚠️</span> Mi & Fr: kein Fisch</div>
-            <div class="legend-item"><span class="legend-icon">⛔</span> Strenges Fasten</div>
+            <div class="legend-item"><span>🎉</span> Festtag / Herrenfest</div>
+            <div class="legend-item"><span>🐟</span> Fisch erlaubt</div>
+            <div class="legend-item"><span>🚫</span> Fisch nicht erlaubt</div>
+            <div class="legend-item"><span>⚠️</span> Mi & Fr: kein Fisch</div>
+            <div class="legend-item"><span>⛔</span> Strenges Fasten</div>
         </div>
     </div>
 
@@ -296,9 +464,9 @@
     <div class="card instructions">
         <h2>Kalender auf dem Smartphone einbinden</h2>
         <ol>
-            <li><strong>iPhone / iPad:</strong> Klicke ganz oben einfach auf <em>"Direkt abonnieren"</em>. Apple Kalender öffnet sich und fragt nach der Bestätigung.</li>
+            <li><strong>iPhone / iPad:</strong> Klicke ganz oben auf <em>"Direkt abonnieren"</em>. Apple Kalender öffnet sich und fragt nach der Bestätigung.</li>
             <li><strong>Google Kalender (Android / PC):</strong> Kopiere den Link der <code>.ics</code>-Datei. Gehe in Google Kalender auf <em>"Weitere Kalender" (+)</em> &rarr; <em>"Per URL"</em> und füge den Link ein.</li>
-            <li><strong>Outlook / Mac:</strong> Datei herunterladen und per Doppelklick in deiner Kalender-Anwendung öffnen.</li>
+            <li><strong>Outlook / Mac:</strong> Datei herunterladen und per Doppelklick öffnen.</li>
         </ol>
     </div>
 
@@ -306,6 +474,28 @@
         <p>&copy; Koptisch-Orthodoxer Kalender | Bereitgestellt via GitHub Pages</p>
     </footer>
 </div>
+
+<script>
+    function setTheme(mode) {
+        if (mode === 'system') {
+            document.documentElement.removeAttribute('data-theme');
+            localStorage.removeItem('theme');
+        } else {
+            document.documentElement.setAttribute('data-theme', mode);
+            localStorage.setItem('theme', mode);
+        }
+        updateThemeUI(mode);
+    }
+
+    function updateThemeUI(mode) {
+        document.querySelectorAll('.theme-btn').forEach(btn => btn.classList.remove('active'));
+        document.getElementById('btn-' + mode).classList.add('active');
+    }
+
+    // Beim Laden bevorzugte oder gespeicherte Einstellung anwenden
+    const savedTheme = localStorage.getItem('theme') || 'system';
+    setTheme(savedTheme);
+</script>
 
 </body>
 </html>
