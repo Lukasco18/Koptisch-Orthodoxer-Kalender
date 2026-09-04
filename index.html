@@ -3,499 +3,776 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Koptisch-Orthodoxer Kalender 2026–2027</title>
+    <title>Koptischer Orthodoxer Kalender</title>
     <style>
         :root {
-            --primary: #1e3a8a;
-            --primary-gradient: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
-            --accent: #d97706;
-            --bg: #f8fafc;
-            --card-bg: #ffffff;
-            --text: #1e293b;
-            --text-muted: #64748b;
-            --border: #e2e8f0;
-            --row-hover: #f1f5f9;
-            --switcher-bg: #e2e8f0;
-            --switcher-active: #ffffff;
-            --cross-stroke: #1b2e4b;
-            --cross-accent: #1e3a8a;
+            --bg-farbe: #0a0f1d;
+            --karte-bg: #121a2d;
+            --karte-innen: #0e1526;
+            --text-farbe: #f1f5f9;
+            --text-stumm: #94a3b8;
+            --primaer-blau: #2563eb;
+            --akzent-gold: #eab308;
+            --akzent-gold-hover: #ca8a04;
+            --rahmen-farbe: #1e293b;
+            --verboten-rot: #ef4444;
+            --erlaubt-gruen: #22c55e;
+            --kreuz-farbe: #ffffff;
+            --schatten: 0 4px 12px rgba(0, 0, 0, 0.4);
+            
+            /* Fasten & Fest Farben */
+            --badge-heute: #2563eb;
+            --badge-grosse-feste: #854d0e;
+            --badge-kleine-feste: #713f12;
+            --badge-strenges-fasten: #581c87;
+            --badge-fasten-fisch: #0369a1;
+            --badge-fastenfrei: #15803d;
         }
 
-        /* Automatisch dunkles Design über Systemeinstellung */
-        @media (prefers-color-scheme: dark) {
-            :root:not([data-theme="light"]) {
-                --primary: #60a5fa;
-                --primary-gradient: linear-gradient(135deg, #0b1329 0%, #1e3a8a 100%);
-                --accent: #fbbf24;
-                --bg: #0b0f19;
-                --card-bg: #161f33;
-                --text: #f1f5f9;
-                --text-muted: #94a3b8;
-                --border: #243049;
-                --row-hover: #1e2d4a;
-                --switcher-bg: #1e293b;
-                --switcher-active: #334155;
-                --cross-stroke: #0f172a;
-                --cross-accent: #1e3a8a;
-            }
+        body.light-mode {
+            --bg-farbe: #f8fafc;
+            --karte-bg: #ffffff;
+            --karte-innen: #f1f5f9;
+            --text-farbe: #0f172a;
+            --text-stumm: #64748b;
+            --rahmen-farbe: #cbd5e1;
+            --kreuz-farbe: #0f172a;
         }
 
-        /* Manuell erzwungener Dark Mode */
-        [data-theme="dark"] {
-            --primary: #60a5fa;
-            --primary-gradient: linear-gradient(135deg, #0b1329 0%, #1e3a8a 100%);
-            --accent: #fbbf24;
-            --bg: #0b0f19;
-            --card-bg: #161f33;
-            --text: #f1f5f9;
-            --text-muted: #94a3b8;
-            --border: #243049;
-            --row-hover: #1e2d4a;
-            --switcher-bg: #1e293b;
-            --switcher-active: #334155;
-            --cross-stroke: #0f172a;
-            --cross-accent: #1e3a8a;
-        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+        body { background-color: var(--bg-farbe); color: var(--text-farbe); padding-bottom: 40px; line-height: 1.5; transition: background-color 0.3s, color 0.3s; }
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        }
-
-        body {
-            background-color: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            padding: 24px 16px;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .container {
-            max-width: 860px;
-            margin: 0 auto;
-        }
-
-        /* Theme Switcher Header Bar */
-        .top-bar {
-            display: flex;
-            justify-content: flex-end;
-            margin-bottom: 16px;
-        }
-
-        .theme-switcher {
-            display: inline-flex;
-            background: var(--switcher-bg);
-            padding: 4px;
-            border-radius: 12px;
-            gap: 4px;
-            border: 1px solid var(--border);
-        }
-
-        .theme-btn {
-            border: none;
-            background: transparent;
-            color: var(--text-muted);
-            padding: 6px 12px;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-weight: 600;
-            transition: all 0.2s ease;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .theme-btn.active {
-            background: var(--switcher-active);
-            color: var(--text);
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        }
-
-        header {
-            text-align: center;
-            padding: 40px 20px;
-            background: var(--primary-gradient);
-            color: white;
+        /* HEADER BANNER */
+        .header { background-color: var(--karte-bg); border-bottom: 1px solid var(--rahmen-farbe); padding: 16px 20px; margin-bottom: 20px; box-shadow: var(--schatten); }
+        .header-inhalte { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+        .titel-gruppe { display: flex; align-items: center; gap: 18px; }
+        .koptisches-kreuz-svg { flex-shrink: 0; }
+        .haupttitel { font-size: 1.6rem; font-weight: 700; color: var(--text-farbe); }
+        .untertitel { font-size: 0.9rem; color: var(--text-stumm); margin-top: 2px; }
+        
+        .header-aktionen { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+        
+        .btn-header-kalender {
+            background-color: transparent;
+            border: 2px solid var(--akzent-gold);
+            color: var(--text-farbe);
+            padding: 8px 18px;
             border-radius: 20px;
-            margin-bottom: 30px;
-            box-shadow: 0 12px 30px -8px rgba(0, 0, 0, 0.35);
-            border: 1px solid var(--border);
-        }
-
-        /* Integriertes Koptisches Kreuz */
-        .coptic-cross-svg {
-            width: 140px;
-            height: 140px;
-            margin: 0 auto 15px auto;
-            display: block;
-        }
-
-        .coptic-text {
-            font-family: "Times New Roman", Times, serif;
-            font-size: 15px;
-            font-weight: bold;
-            text-anchor: middle;
-            dominant-baseline: central;
-            fill: #ffffff;
-            filter: drop-shadow(0px 1px 3px rgba(0,0,0,0.9));
-        }
-
-        header h1 {
-            font-size: 2.1rem;
-            margin-bottom: 8px;
-            font-weight: 700;
-        }
-
-        header p {
-            font-size: 1.05rem;
-            opacity: 0.92;
-            max-width: 580px;
-            margin: 0 auto 28px auto;
-        }
-
-        .actions {
-            display: flex;
-            gap: 14px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .btn {
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
             display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 13px 24px;
-            border-radius: 12px;
+            transition: all 0.2s;
+        }
+        .btn-header-kalender:hover { background-color: rgba(234, 179, 8, 0.15); }
+
+        .btn-theme-toggle {
+            background-color: var(--karte-innen);
+            border: 1px solid var(--rahmen-farbe);
+            color: var(--text-farbe);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
             font-weight: 600;
-            text-decoration: none;
-            transition: all 0.2s ease;
-            font-size: 0.98rem;
-        }
-
-        .btn-primary {
-            background-color: #ffffff;
-            color: #1e3a8a;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        }
-
-        .btn-primary:hover {
-            transform: translateY(-2px);
-        }
-
-        .btn-secondary {
-            background-color: rgba(255, 255, 255, 0.18);
-            color: #ffffff;
-            backdrop-filter: blur(8px);
-            border: 1px solid rgba(255, 255, 255, 0.25);
-        }
-
-        .btn-secondary:hover {
-            background-color: rgba(255, 255, 255, 0.28);
-            transform: translateY(-2px);
-        }
-
-        .card {
-            background: var(--card-bg);
-            border-radius: 16px;
-            padding: 26px;
-            margin-bottom: 24px;
-            border: 1px solid var(--border);
-            box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.06);
-        }
-
-        .card h2 {
-            font-size: 1.35rem;
-            color: var(--primary);
-            margin-bottom: 18px;
-            border-bottom: 2px solid var(--border);
-            padding-bottom: 10px;
-        }
-
-        .legend-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 12px;
-        }
-
-        .legend-item {
-            display: flex;
+            cursor: pointer;
+            display: inline-flex;
             align-items: center;
-            gap: 10px;
-            padding: 10px 14px;
-            background: var(--bg);
-            border-radius: 10px;
-            font-size: 0.92rem;
-            border: 1px solid var(--border);
+            gap: 6px;
+            transition: all 0.2s;
         }
+        .btn-theme-toggle:hover { border-color: var(--akzent-gold); }
 
-        .events-list {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
+        /* CONTAINER & KARTEN */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 10px; display: flex; flex-direction: column; gap: 16px; }
+        .karte { background-color: var(--karte-bg); border: 1px solid var(--rahmen-farbe); border-radius: 10px; padding: 18px 22px; box-shadow: var(--schatten); }
+
+        /* LEGENDE */
+        .legende-karte { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+        .legende-titel { font-weight: 700; font-size: 1rem; margin-right: 5px; }
+        .badge-pill { padding: 5px 12px; border-radius: 6px; font-size: 0.85rem; font-weight: 600; display: inline-flex; align-items: center; gap: 6px; border: 1px solid transparent; }
+        
+        .badge-heute-pill { background-color: #1e3a8a; color: #93c5fd; border-color: #2563eb; }
+        .badge-grosse-feste-pill { background-color: #451a03; color: #fde047; border-color: #b45309; }
+        .badge-kleine-feste-pill { background-color: #3b270c; color: #fef08a; border-color: #ca8a04; }
+        .badge-strenges-fasten-pill { background-color: #3b0764; color: #f5d0fe; border-color: #86198f; }
+        .badge-fasten-fisch-pill { background-color: #0c4a6e; color: #38bdf8; border-color: #0284c7; }
+        .badge-fastenfrei-pill { background-color: #14532d; color: #4ade80; border-color: #16a34a; }
+
+        /* FASTENÜBERSICHT */
+        .fasten-sektion-titel { font-size: 1rem; font-weight: 700; color: #38bdf8; margin-bottom: 12px; display: flex; align-items: center; gap: 8px; }
+        .fasten-gitter { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 14px; }
+        .fasten-karte { background-color: var(--karte-innen); border: 1px solid var(--rahmen-farbe); border-radius: 8px; padding: 14px 16px; font-size: 0.88rem; line-height: 1.5; }
+        .fasten-karte h4 { font-size: 0.95rem; margin-bottom: 6px; display: flex; align-items: center; gap: 6px; }
+        .text-erlaubt { color: var(--text-farbe); margin-bottom: 4px; }
+        .text-verboten { color: #f87171; margin-bottom: 8px; }
+        .text-gilt { color: var(--text-stumm); font-style: italic; font-size: 0.82rem; }
+
+        /* STEUERUNGSLEISTE */
+        .steuerung-karte { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 15px; }
+        .nav-gruppe { display: flex; align-items: center; gap: 10px; }
+        .auswahl-gruppe { display: flex; align-items: center; gap: 15px; }
+        .feld-gruppe { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.95rem; }
+
+        /* BUTTONS */
+        .btn { padding: 8px 16px; border-radius: 6px; font-weight: 600; cursor: pointer; border: none; font-size: 0.9rem; transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px; }
+        .btn-dunkel { background-color: var(--karte-innen); color: var(--text-farbe); border: 1px solid var(--rahmen-farbe); }
+        .btn-dunkel:hover { border-color: var(--akzent-gold); }
+        .btn-blau { background-color: var(--primaer-blau); color: #ffffff; }
+        .btn-blau:hover { opacity: 0.9; }
+        .btn-gold { background-color: var(--akzent-gold); color: #000000; font-weight: 700; border-radius: 8px; }
+        .btn-gold:hover { background-color: var(--akzent-gold-hover); }
+
+        select, input[type="number"], input[type="date"] { padding: 7px 12px; border-radius: 6px; border: 1px solid var(--rahmen-farbe); background-color: var(--karte-innen); color: var(--text-farbe); font-size: 0.95rem; outline: none; }
+        select:focus, input:focus { border-color: var(--akzent-gold); }
+
+        /* KALENDER GRID */
+        .kalender-kopf-info { text-align: center; margin-bottom: 15px; }
+        .monat-titel { font-size: 1.4rem; font-weight: 700; }
+        .koptischer-monat-untertitel { font-size: 1rem; color: var(--akzent-gold); font-weight: 600; }
+        
+        .kalender-gitter { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; width: 100%; }
+        .wochentag-kopf { background-color: var(--karte-innen); color: var(--text-stumm); text-align: center; padding: 8px; font-weight: 700; font-size: 0.85rem; border-radius: 4px; }
+        
+        /* TAG ZELLE */
+        .kalender-tag { 
+            min-height: 100px; 
+            background-color: var(--karte-innen); 
+            border: 1px solid var(--rahmen-farbe); 
+            border-radius: 6px; 
+            padding: 8px; 
+            display: flex; 
+            flex-direction: column; 
+            justify-content: space-between; 
+            cursor: pointer; 
+            transition: all 0.2s; 
         }
+        .kalender-tag:hover { border-color: var(--akzent-gold); transform: translateY(-2px); }
+        .tag-heute { border: 2px solid var(--primaer-blau); }
+        .tag-ausgewaehlt { background-color: #1e3a8a !important; border: 2px solid #60a5fa !important; }
+        .tag-leer { background: transparent; border: none; cursor: default; }
+        .tag-leer:hover { transform: none; border: none; }
 
-        .event-row {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 12px 16px;
-            border-radius: 10px;
-            background: var(--bg);
-            transition: background 0.2s ease;
-            border: 1px solid var(--border);
+        .tag-kopf-zeile { display: flex; align-items: flex-start; gap: 6px; }
+        .greg-tag { font-weight: 800; font-size: 1.1rem; line-height: 1; }
+        .kopt-tag { font-size: 0.72rem; color: var(--akzent-gold); font-weight: 600; line-height: 1.1; }
+
+        .tag-badges-liste { display: flex; flex-direction: column; gap: 4px; margin-top: 6px; }
+        .tag-badge { 
+            font-size: 0.7rem; 
+            font-weight: 600; 
+            padding: 2px 6px; 
+            border-radius: 4px; 
+            white-space: nowrap; 
+            overflow: hidden; 
+            text-overflow: ellipsis; 
+            display: inline-flex; 
+            align-items: center; 
+            gap: 4px; 
         }
+        .badge-fasten-streng { background-color: #3b0764; color: #f5d0fe; border: 1px solid #86198f; }
+        .badge-fasten-fisch { background-color: #0c4a6e; color: #38bdf8; border: 1px solid #0284c7; }
+        .badge-fest-klein { background-color: #3b270c; color: #fef08a; border: 1px solid #ca8a04; }
+        .badge-fest-gross { background-color: #451a03; color: #fde047; border: 1px solid #b45309; }
 
-        .event-row:hover {
-            background: var(--row-hover);
+        /* TAGESDETAILS & FASTENBESTIMMUNGEN SEKTION */
+        .details-karte { margin-top: 10px; }
+        .details-titel { font-size: 1.1rem; font-weight: 700; color: #38bdf8; margin-bottom: 12px; }
+        .datum-zeile-greg { font-size: 1rem; font-weight: 700; color: var(--text-farbe); margin-bottom: 2px; }
+        .datum-zeile-kopt { font-size: 0.95rem; font-weight: 600; color: var(--akzent-gold); margin-bottom: 14px; }
+        
+        .ereignisse-liste { list-style: none; margin-bottom: 16px; display: flex; flex-direction: column; gap: 6px; }
+        .ereignisse-liste li { display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.95rem; }
+
+        /* FASTENREGEL CONTAINER (LILA BOX WIE IM SCREENSHOT) */
+        .fastenregel-box {
+            background-color: #31134a;
+            border: 1px solid #6b21a8;
+            border-radius: 8px;
+            padding: 16px;
+            color: #f3e8ff;
         }
+        .fastenregel-titel { font-size: 1rem; font-weight: 700; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+        .fastenregel-punkte { list-style-type: disc; padding-left: 20px; font-size: 0.9rem; line-height: 1.6; }
+        .fastenregel-punkte li { margin-bottom: 4px; }
+        .fastenregel-punkte strong { color: #ffffff; }
 
-        .event-info {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
+        /* RECHNER */
+        .rechner-gitter { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 16px; margin-top: 10px; }
+        .rechner-box { background-color: var(--karte-innen); padding: 16px; border-radius: 8px; border: 1px solid var(--rahmen-farbe); display: flex; flex-direction: column; gap: 12px; }
+        .ergebnis-anzeige { padding: 10px; border-radius: 6px; background-color: var(--bg-farbe); border: 1px dashed var(--akzent-gold); font-weight: 600; color: var(--akzent-gold); min-height: 42px; display: flex; align-items: center; justify-content: center; font-size: 1.05rem; }
 
-        .event-title {
-            font-weight: 600;
-        }
-
-        .event-date {
-            font-weight: 600;
-            color: var(--accent);
-            white-space: nowrap;
-            font-size: 0.95rem;
-        }
-
-        .instructions ol {
-            padding-left: 20px;
-        }
-
-        .instructions li {
-            margin-bottom: 10px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 25px 10px;
-            color: var(--text-muted);
-            font-size: 0.88rem;
-        }
-
-        @media (max-width: 600px) {
-            header h1 { font-size: 1.7rem; }
-            .event-row { flex-direction: column; align-items: flex-start; gap: 6px; }
-            .event-date { align-self: flex-end; }
+        @media (max-width: 768px) {
+            .header-inhalte { flex-direction: column; align-items: flex-start; }
+            .header-aktionen { width: 100%; justify-content: space-between; margin-top: 10px; }
+            .steuerung-karte { flex-direction: column; align-items: stretch; }
+            .nav-gruppe, .auswahl-gruppe { justify-content: center; }
+            .btn-gold { width: 100%; justify-content: center; }
+            .kalender-tag { min-height: 80px; padding: 4px; }
+            .greg-tag { font-size: 0.95rem; }
+            .kopt-tag { font-size: 0.65rem; }
         }
     </style>
 </head>
 <body>
 
-<div class="container">
-    <!-- Design-Schalter -->
-    <div class="top-bar">
-        <div class="theme-switcher">
-            <button class="theme-btn" id="btn-light" onclick="setTheme('light')">☀️ Hell</button>
-            <button class="theme-btn" id="btn-dark" onclick="setTheme('dark')">🌙 Dunkel</button>
-            <button class="theme-btn" id="btn-system" onclick="setTheme('system')">💻 System</button>
-        </div>
-    </div>
+    <!-- HEADER BANNER -->
+    <header class="header">
+        <div class="header-inhalte">
+            <div class="titel-gruppe">
+                <svg class="koptisches-kreuz-svg" viewBox="0 0 280 280" width="80" height="80">
+                    <defs>
+                        <g id="kopt-arm">
+                            <path d="M 0,-125 L 28,-88 L 48,-88 L 18,-68 L 18,-28 L -18,-28 L -18,-68 L -48,-88 L -28,-88 Z"
+                                  fill="none" stroke="var(--kreuz-farbe)" stroke-width="2.5" stroke-linejoin="miter" stroke-miterlimit="4"/>
+                            <path d="M 0,-112 L 22,-82 L 38,-82 L 13,-65 L 13,-28 L -13,-28 L -13,-65 L -38,-82 L -22,-82 Z"
+                                  fill="none" stroke="var(--kreuz-farbe)" stroke-width="1.5" stroke-linejoin="miter"/>
+                            <polygon points="0,-102 10,-88 0,-74 -10,-88" fill="var(--kreuz-farbe)"/>
+                            <polygon points="0,-70 8,-54 0,-38 -8,-54" fill="var(--kreuz-farbe)"/>
+                            <polygon points="-22,-76 -30,-80 -22,-84 -16,-80" fill="var(--kreuz-farbe)"/>
+                            <polygon points="22,-76 30,-80 22,-84 16,-80" fill="var(--kreuz-farbe)"/>
+                        </g>
+                    </defs>
 
-    <header>
-        <!-- Direkt eingebettetes Koptisches Kreuz (SVG Vector Graphics) -->
-        <svg class="coptic-cross-svg" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-            <defs>
-                <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                    <stop offset="0%" stop-color="#fef08a" />
-                    <stop offset="50%" stop-color="#f59e0b" />
-                    <stop offset="100%" stop-color="#b45309" />
-                </linearGradient>
-                <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-                    <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.5"/>
-                </filter>
-            </defs>
+                    <g transform="translate(140, 140)">
+                        <use href="#kopt-arm"/>
+                        <use href="#kopt-arm" transform="rotate(90)"/>
+                        <use href="#kopt-arm" transform="rotate(180)"/>
+                        <use href="#kopt-arm" transform="rotate(270)"/>
 
-            <!-- Koptische Kreuzform (12 Spitzen) -->
-            <path d="
-                M 100,12 
-                L 114,30 L 108,36 L 126,44 L 114,56 L 114,86 
-                L 144,86 L 156,74 L 164,80 L 168,86 L 188,100 
-                L 168,114 L 164,120 L 156,126 L 144,114 L 114,114 
-                L 114,144 L 126,156 L 120,162 L 114,168 L 100,188 
-                L 86,168 L 80,162 L 74,156 L 86,144 L 86,114 
-                L 56,114 L 44,126 L 36,120 L 32,114 L 12,100 
-                L 32,86 L 36,80 L 44,74 L 56,86 L 86,86 
-                L 86,56 L 74,44 L 80,36 L 86,30 Z
-            " fill="url(#goldGrad)" stroke="var(--cross-stroke)" stroke-width="4" stroke-linejoin="round" filter="url(#shadow)" />
+                        <circle cx="0" cy="0" r="28" fill="var(--karte-bg)" stroke="var(--kreuz-farbe)" stroke-width="2.5"/>
+                        <rect x="-19" y="-19" width="38" height="38" fill="none" stroke="var(--kreuz-farbe)" stroke-width="1.5" transform="rotate(45)"/>
+                        <path d="M 0,-28 L 0,28 M -28,0 L 28,0" stroke="var(--kreuz-farbe)" stroke-width="2"/>
+                        <path d="M -20,-20 L 20,20 M 20,-20 L -20,20" stroke="var(--kreuz-farbe)" stroke-width="1.5"/>
+                        <polygon points="0,-12 12,0 0,12 -12,0" fill="var(--kreuz-farbe)"/>
+                        <circle cx="0" cy="0" r="3" fill="var(--karte-bg)"/>
+                    </g>
 
-            <!-- Innen-Kontur -->
-            <path d="
-                M 100,22 
-                L 110,34 L 106,38 L 120,44 L 110,54 L 110,90 
-                L 146,90 L 156,80 L 162,84 L 164,90 L 178,100 
-                L 164,110 L 162,116 L 156,120 L 146,110 L 110,110 
-                L 110,146 L 120,156 L 116,160 L 110,164 L 100,178 
-                L 90,164 L 84,160 L 80,156 L 90,146 L 90,110 
-                L 54,110 L 44,120 L 38,116 L 36,110 L 22,100 
-                L 36,90 L 38,84 L 44,80 L 54,90 L 90,90 
-                L 90,54 L 80,44 L 84,38 L 90,34 Z
-            " fill="none" stroke="var(--cross-accent)" stroke-width="2" />
+                    <text x="32" y="48" fill="var(--kreuz-farbe)" font-family="'Times New Roman', Georgia, serif" font-weight="bold" font-size="24" text-anchor="middle">Ⲓ̅Ⲏ̅ⲥ</text>
+                    <text x="248" y="48" fill="var(--kreuz-farbe)" font-family="'Times New Roman', Georgia, serif" font-weight="bold" font-size="24" text-anchor="middle">Ⲡ̅Ⲭ̅ⲥ</text>
+                    <text x="32" y="250" fill="var(--kreuz-farbe)" font-family="'Times New Roman', Georgia, serif" font-weight="bold" font-size="21" text-anchor="middle">Ⲡ̀ϣⲏⲣⲓ</text>
+                    <text x="248" y="250" fill="var(--kreuz-farbe)" font-family="'Times New Roman', Georgia, serif" font-weight="bold" font-size="21" text-anchor="middle">ⲙ̀ⲫϯ</text>
+                </svg>
 
-            <!-- Zentrales Emblem -->
-            <circle cx="100" cy="100" r="26" fill="url(#goldGrad)" stroke="var(--cross-accent)" stroke-width="3" />
-            <circle cx="100" cy="100" r="20" fill="none" stroke="var(--cross-accent)" stroke-width="1.5" />
-            <circle cx="100" cy="100" r="6" fill="#dc2626" stroke="var(--cross-accent)" stroke-width="1" />
-            
-            <!-- Kreuzstrahlen im Zentrum -->
-            <path d="M 100,76 L 100,124 M 76,100 L 124,100" stroke="var(--cross-accent)" stroke-width="2.5" />
-            <path d="M 85,85 L 115,115 M 115,85 L 85,115" stroke="#dc2626" stroke-width="1.5" />
+                <div>
+                    <h1 class="haupttitel">Koptischer Orthodoxer Kalender</h1>
+                    <div class="untertitel">Feste, Fastenzeiten &amp; Tageslesungen</div>
+                </div>
+            </div>
 
-            <!-- Ornamentale Bogen in den Arm-Zentren -->
-            <path d="M 100,42 C 92,50 92,68 100,74 C 108,68 108,50 100,42 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
-            <path d="M 100,158 C 92,150 92,132 100,126 C 108,132 108,150 100,158 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
-            <path d="M 42,100 C 50,92 68,92 74,100 C 68,108 50,108 42,100 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
-            <path d="M 158,100 C 150,92 132,92 126,100 C 132,108 150,108 158,100 Z" fill="none" stroke="var(--cross-accent)" stroke-width="2" />
-
-            <!-- Koptische Buchstaben in den 4 Ecken -->
-            <text x="36" y="44" class="coptic-text">І̄Н̄С</text>
-            <text x="164" y="44" class="coptic-text">П̄Х̄С</text>
-            <text x="36" y="168" class="coptic-text">П̄ШИРІ</text>
-            <text x="164" y="168" class="coptic-text">М̄Ф̄Т̄</text>
-        </svg>
-
-        <h1>Koptisch-Orthodoxer Kalender</h1>
-        <p>Festtage, Herrenfeste und Fastenzeiten für die Jahre 2026–2027</p>
-        
-        <div class="actions">
-            <a href="webcal://lukasco18.github.io/Koptisch-Orthodoxer-Kalender/kalender.ics" class="btn btn-primary">
-                📅 Direkt abonnieren (iOS / Mac)
-            </a>
-            <a href="kalender.ics" download class="btn btn-secondary">
-                ⬇️ ICS-Datei herunterladen
-            </a>
+            <div class="header-aktionen">
+                <button class="btn-header-kalender" onclick="kalenderExportieren()">
+                    📲 Zu Apple &amp; Android Kalender
+                </button>
+                <button class="btn-theme-toggle" onclick="themeUmschalten()">
+                    <span id="theme-icon">☀️</span> <span id="theme-text">Hell</span>
+                </button>
+            </div>
         </div>
     </header>
 
-    <!-- Legende -->
-    <div class="card">
-        <h2>Legende</h2>
-        <div class="legend-grid">
-            <div class="legend-item"><span>🎉</span> Festtag / Herrenfest</div>
-            <div class="legend-item"><span>🐟</span> Fisch erlaubt</div>
-            <div class="legend-item"><span>🚫</span> Fisch nicht erlaubt</div>
-            <div class="legend-item"><span>⚠️</span> Mi & Fr: kein Fisch</div>
-            <div class="legend-item"><span>⛔</span> Strenges Fasten</div>
+    <div class="container">
+        
+        <!-- LEGENDE & SYMBOLE -->
+        <div class="karte legende-karte">
+            <span class="legende-titel">Legende &amp; Symbole:</span>
+            <span class="badge-pill badge-heute-pill">📌 Heute</span>
+            <span class="badge-pill badge-grosse-feste-pill">👑 Große Feste</span>
+            <span class="badge-pill badge-kleine-feste-pill">✨ Kleine Feste</span>
+            <span class="badge-pill badge-strenges-fasten-pill">🌱 Strenges Fasten</span>
+            <span class="badge-pill badge-fasten-fisch-pill">🐟 Fasten (Fisch erlaubt)</span>
+            <span class="badge-pill badge-fastenfrei-pill">🕊️ Fastenfrei (50 Tage)</span>
         </div>
-    </div>
 
-    <!-- Große Herrenfeste 2026 -->
-    <div class="card">
-        <h2>Die 7 großen Herrenfeste (2026)</h2>
-        <div class="events-list">
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Geburt Christi (Weihnachten)</div></div>
-                <div class="event-date">Mi, 07. Jan 2026</div>
+        <!-- FASTENÜBERSICHT -->
+        <div class="karte">
+            <div class="fasten-sektion-titel">
+                📊 Übersicht: Wann wird was gefastet? (Regeln der Koptischen Kirche)
             </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Taufe Jesu (Epiphanias)</div></div>
-                <div class="event-date">Mo, 19. Jan 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Verkündigung des Herrn</div></div>
-                <div class="event-date">Di, 07. Apr 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Palmsonntag</div></div>
-                <div class="event-date">So, 05. Apr 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Auferstehung (Ostern)</div></div>
-                <div class="event-date">So, 12. Apr 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Christi Himmelfahrt</div></div>
-                <div class="event-date">Do, 21. Mai 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Pfingsten</div></div>
-                <div class="event-date">So, 31. Mai 2026</div>
+            <div class="fasten-gitter">
+                <div class="fasten-karte">
+                    <h4>🌱 Strenges Fasten (Rein Vegan)</h4>
+                    <div class="text-erlaubt"><strong>Erlaubt:</strong> Alle pflanzlichen Lebensmittel (Obst, Gemüse, Getreide, Hülsenfrüchte, Nüsse, Pflanzendrinks).</div>
+                    <div class="text-verboten"><strong>Verboten:</strong> Fleisch, Geflügel, Fisch, Milch, Käse, Butter, Eier.</div>
+                    <div class="text-gilt">Gilt für: Große Fastenzeit, Karwoche, Jonasfasten, Mittwochs &amp; Freitags, Paramoni.</div>
+                </div>
+
+                <div class="fasten-karte">
+                    <h4>🐟 Fasten mit Fisch-Erlaubnis</h4>
+                    <div class="text-erlaubt"><strong>Erlaubt:</strong> Alle pflanzlichen Speisen + <u>Fisch &amp; Meeresfrüchte</u>.</div>
+                    <div class="text-verboten"><strong>Verboten:</strong> Fleisch, Geflügel, Milchprodukte, Eier.</div>
+                    <div class="text-gilt">Gilt für: Geburtsfasten (vor Weihnachten), Apostelfasten, Marienfasten.</div>
+                </div>
+
+                <div class="fasten-karte">
+                    <h4>🕊️ Fastenfreie Zeit (Heilige 50 Tage)</h4>
+                    <div class="text-erlaubt"><strong>Erlaubt:</strong> Alle Speisen ohne Einschränkung.</div>
+                    <div style="color: var(--text-stumm); margin-top: 4px;">In den 50 Tagen von Ostern bis Pfingsten ist jegliches Fasten streng untersagt – auch an Mittwochen und Freitagen.</div>
+                </div>
             </div>
         </div>
-    </div>
 
-    <!-- Kleine Herrenfeste 2026 -->
-    <div class="card">
-        <h2>Die 7 kleinen Herrenfeste (2026)</h2>
-        <div class="events-list">
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Beschneidung des Herrn</div></div>
-                <div class="event-date">Mi, 14. Jan 2026</div>
+        <!-- STEUERUNGSLEISTE -->
+        <div class="karte steuerung-karte">
+            <div class="nav-gruppe">
+                <button class="btn btn-dunkel" onclick="monatWechseln(-1)">◄ Vorheriger Monat</button>
+                <button class="btn btn-blau" onclick="heuteGehen()">Heute</button>
+                <button class="btn btn-dunkel" onclick="monatWechseln(1)">Nächster Monat ►</button>
             </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Erstes Wunder Jesu (Hochzeit zu Kana)</div></div>
-                <div class="event-date">Mi, 21. Jan 2026</div>
+
+            <div class="auswahl-gruppe">
+                <div class="feld-gruppe">
+                    <label for="monat-auswahl">Monat:</label>
+                    <select id="monat-auswahl" onchange="datumAusgewaehlt()"></select>
+                </div>
+                <div class="feld-gruppe">
+                    <label for="jahr-eingabe">Jahr:</label>
+                    <input type="number" id="jahr-eingabe" min="1900" max="2100" style="width: 85px;" onchange="datumAusgewaehlt()">
+                </div>
             </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Eintritt Jesu in den Tempel</div></div>
-                <div class="event-date">So, 15. Feb 2026</div>
+
+            <button class="btn btn-gold" onclick="kalenderExportieren()">
+                📅 .ics Kalender Importieren
+            </button>
+        </div>
+
+        <!-- KALENDER BEREICH -->
+        <div class="karte">
+            <div class="kalender-kopf-info">
+                <h2 class="monat-titel" id="kalender-monat-titel">Monat Jahr</h2>
+                <div class="koptischer-monat-untertitel" id="koptischer-monat-titel">Koptische Monate</div>
             </div>
-            <div class="event-row">
-                <div class="event-info"><span>⛔</span><div class="event-title">Donnerstag des Bundes (Gründonnerstag)</div></div>
-                <div class="event-date">Do, 09. Apr 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Thomas Sonntag</div></div>
-                <div class="event-date">So, 19. Apr 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Einzug der Hl. Familie in Ägypten</div></div>
-                <div class="event-date">Mo, 01. Jun 2026</div>
-            </div>
-            <div class="event-row">
-                <div class="event-info"><span>🎉</span><div class="event-title">Verklärung Jesu</div></div>
-                <div class="event-date">Mi, 19. Aug 2026</div>
+            <div class="kalender-gitter" id="kalender-gitter"></div>
+        </div>
+
+        <!-- TAGESDETAILS & FASTENBESTIMMUNGEN -->
+        <div class="karte details-karte">
+            <div class="details-titel">Tagesdetails &amp; Fastenbestimmungen</div>
+            <div class="datum-zeile-greg" id="detail-greg-datum">Gregorianisch: --</div>
+            <div class="datum-zeile-kopt" id="detail-kopt-datum">Koptisches Datum: --</div>
+            
+            <div style="font-weight: 700; font-size: 0.95rem; margin-bottom: 6px;">Ereignisse &amp; Saisons:</div>
+            <ul class="ereignisse-liste" id="detail-ereignisse-liste">
+                <!-- Dynamisch befüllt -->
+            </ul>
+
+            <div class="fastenregel-box" id="detail-fastenregel-box">
+                <div class="fastenregel-titel" id="detail-fasten-titel">🌱 Fastenregel für heute: STRENGES FASTEN (Rein Vegan)</div>
+                <ul class="fastenregel-punkte" id="detail-fasten-punkte">
+                    <li><strong>Erlaubt:</strong> Obst, Gemüse, Getreide, Brot, Hülsenfrüchte, Nüsse.</li>
+                    <li><strong>Verboten:</strong> Fleisch, Geflügel, Fisch, Milch, Käse, Butter, Eier.</li>
+                    <li><strong>Fastenstunden (🕒):</strong> Enthaltung von Speise &amp; Trank bis nach der Heiligen Liturgie.</li>
+                </ul>
             </div>
         </div>
+
+        <!-- RECHNER BEREICH -->
+        <div class="karte">
+            <h3 style="margin-bottom: 12px; color: #38bdf8;">Koptischer Datumsumrechner</h3>
+            <div class="rechner-gitter">
+                <div class="rechner-box">
+                    <h4 style="color: var(--text-farbe);">Gregorianisch ➔ Koptisch</h4>
+                    <input type="date" id="greg-input-umrechner" oninput="umrechnenGregZuKopt()" onchange="umrechnenGregZuKopt()">
+                    <div class="ergebnis-anzeige" id="kopt-ergebnis-anzeige">--</div>
+                </div>
+
+                <div class="rechner-box">
+                    <h4 style="color: var(--text-farbe);">Koptisch ➔ Gregorianisch</h4>
+                    <div style="display: flex; gap: 8px;">
+                        <input type="number" id="kopt-tag-input" placeholder="Tag" min="1" max="30" style="width: 70px;" value="1" oninput="umrechnenKoptZuGreg()">
+                        <select id="kopt-monat-input" style="flex: 1;" onchange="umrechnenKoptZuGreg()"></select>
+                        <input type="number" id="kopt-jahr-input" placeholder="Jahr" min="1" max="3000" style="width: 90px;" value="1744" oninput="umrechnenKoptZuGreg()">
+                    </div>
+                    <button class="btn btn-blau" onclick="umrechnenKoptZuGreg()" style="justify-content: center; width: 100%;">Umrechnen</button>
+                    <div class="ergebnis-anzeige" id="greg-ergebnis-anzeige">--</div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
-    <!-- Einbindungs-Anleitung -->
-    <div class="card instructions">
-        <h2>Kalender auf dem Smartphone einbinden</h2>
-        <ol>
-            <li><strong>iPhone / iPad:</strong> Klicke ganz oben auf <em>"Direkt abonnieren"</em>. Apple Kalender öffnet sich und fragt nach der Bestätigung.</li>
-            <li><strong>Google Kalender (Android / PC):</strong> Kopiere den Link der <code>.ics</code>-Datei. Gehe in Google Kalender auf <em>"Weitere Kalender" (+)</em> &rarr; <em>"Per URL"</em> und füge den Link ein.</li>
-            <li><strong>Outlook / Mac:</strong> Datei herunterladen und per Doppelklick öffnen.</li>
-        </ol>
-    </div>
+    <script>
+        const GREG_MONATE = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
+        const GREG_TAGE = ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"];
+        const WOCHENTAGE = ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"];
+        
+        const KOPT_MONATE = [
+            { name: "Thout", alt: "Tout" },
+            { name: "Paopi", alt: "Baba" },
+            { name: "Hathor", alt: "Hatour" },
+            { name: "Koiak", alt: "Kiahk" },
+            { name: "Tobi", alt: "Touba" },
+            { name: "Meshir", alt: "Amshir" },
+            { name: "Paremhat", alt: "Baramhat" },
+            { name: "Parmouti", alt: "Baramouda" },
+            { name: "Pashons", alt: "Bashans" },
+            { name: "Paoni", alt: "Baona" },
+            { name: "Epip", alt: "Abib" },
+            { name: "Mesori", alt: "Misra" },
+            { name: "Pi Kogi Enavot", alt: "Nasie" }
+        ];
 
-    <footer>
-        <p>&copy; Koptisch-Orthodoxer Kalender | Bereitgestellt via GitHub Pages</p>
-    </footer>
-</div>
+        let aktuellesDatum = new Date();
+        let ausgewaehltesDatum = new Date();
 
-<script>
-    function setTheme(mode) {
-        if (mode === 'system') {
-            document.documentElement.removeAttribute('data-theme');
-            localStorage.removeItem('theme');
-        } else {
-            document.documentElement.setAttribute('data-theme', mode);
-            localStorage.setItem('theme', mode);
+        /* --- UTC / JULIAN DAY CONVERSION LOGIK --- */
+        function gregZuJdn(jahr, monat, tag) {
+            const utcMs = Date.UTC(jahr, monat - 1, tag, 12, 0, 0);
+            return (utcMs / 86400000) + 2440587.5;
         }
-        updateThemeUI(mode);
-    }
 
-    function updateThemeUI(mode) {
-        document.querySelectorAll('.theme-btn').forEach(btn => btn.classList.remove('active'));
-        document.getElementById('btn-' + mode).classList.add('active');
-    }
+        function jdnZuGreg(jdn) {
+            const utcMs = (jdn - 2440587.5) * 86400000;
+            const d = new Date(utcMs);
+            return { jahr: d.getUTCFullYear(), monat: d.getUTCMonth() + 1, tag: d.getUTCDate() };
+        }
 
-    // Beim Laden bevorzugte oder gespeicherte Einstellung anwenden
-    const savedTheme = localStorage.getItem('theme') || 'system';
-    setTheme(savedTheme);
-</script>
+        function jdnZuKopt(jdn) {
+            let copticDays = Math.floor(jdn - 1825029.5);
+            let cYear = Math.floor((4 * copticDays + 3) / 1461);
+            let dayOfYear = copticDays - Math.floor(1461 * cYear / 4);
+            let cMonth = Math.floor(dayOfYear / 30) + 1;
+            let cDay = Math.floor(dayOfYear % 30) + 1;
+            return {
+                tag: cDay,
+                monat: cMonth,
+                monatObj: KOPT_MONATE[cMonth - 1],
+                monatName: KOPT_MONATE[cMonth - 1].name,
+                monatAlt: KOPT_MONATE[cMonth - 1].alt,
+                jahr: cYear + 1
+            };
+        }
 
+        function koptZuJdn(cJahr, cMonat, cTag) {
+            return 1825029 + Math.floor(1461 * (cJahr - 1) / 4) + (cMonat - 1) * 30 + cTag;
+        }
+
+        function berechneKoptischesDatum(gregYear, gregMonth, gregDay) {
+            const jdn = gregZuJdn(gregYear, gregMonth, gregDay);
+            return jdnZuKopt(jdn);
+        }
+
+        /* --- FASTEN & FESTE BESTIMMUNG LOGIK --- */
+        function holeTagesEreignisse(gregDatum) {
+            const tag = gregDatum.getDate();
+            const monat = gregDatum.getMonth() + 1; // 1-12
+            const wochentag = gregDatum.getDay(); // 0 = So, 3 = Mi, 5 = Fr
+            const kopt = berechneKoptischesDatum(gregDatum.getFullYear(), monat, tag);
+
+            let ereignisse = [];
+            let fastenTyp = "KEINES"; // STRENG, FISCH, FREI, KEINES
+
+            // Koptische Feste (Beispiele nach koptischem Kalender)
+            if (kopt.monat === 1 && kopt.tag === 1) {
+                ereignisse.push({ text: "Nayrouz (Koptisches Neujahr)", typ: "FEST_KLEIN", icon: "✨" });
+            }
+            if (kopt.monat === 1 && kopt.tag === 17) {
+                ereignisse.push({ text: "Das Fest des Heiligen Kreuzes", typ: "FEST_GROSS", icon: "👑" });
+            }
+            if (kopt.monat === 4 && kopt.tag === 29) {
+                ereignisse.push({ text: "Koptisches Weihnachtsfest (Kiahk)", typ: "FEST_GROSS", icon: "👑" });
+            }
+            if (kopt.monat === 5 && kopt.tag === 11) {
+                ereignisse.push({ text: "Epiphanie (Theophanie)", typ: "FEST_GROSS", icon: "👑" });
+            }
+
+            // Saisons / Fastenzeiten
+            // 1. Marienfasten (1. bis 15. Mesori / ca. 7. - 21. August)
+            if (kopt.monat === 12 && kopt.tag >= 1 && kopt.tag <= 15) {
+                ereignisse.push({ text: "Marienfasten", typ: "FASTEN_FISCH", icon: "🐟" });
+                fastenTyp = "FISCH";
+            }
+            // 2. Geburtsfasten / Kiahk Fasten (16. Hathor bis 28. Koiak / ca. 25. Nov - 6. Jan)
+            else if ((kopt.monat === 3 && kopt.tag >= 16) || kopt.monat === 4) {
+                ereignisse.push({ text: "Geburtsfasten (Weihnachtsfasten)", typ: "FASTEN_FISCH", icon: "🐟" });
+                fastenTyp = "FISCH";
+            }
+
+            // Mittwochs- und Freitagsfasten (außerhalb der 50 fastenfreien Tage nach Ostern)
+            if (wochentag === 3) {
+                ereignisse.push({ text: "Mittwochsfasten", typ: "FASTEN_STRENG", icon: "🌱" });
+                if (fastenTyp !== "FISCH") fastenTyp = "STRENG";
+            } else if (wochentag === 5) {
+                ereignisse.push({ text: "Freitagsfasten", typ: "FASTEN_STRENG", icon: "🌱" });
+                if (fastenTyp !== "FISCH") fastenTyp = "STRENG";
+            }
+
+            return { ereignisse, fastenTyp, kopt };
+        }
+
+        function init() {
+            const monatSelect = document.getElementById("monat-auswahl");
+            GREG_MONATE.forEach((m, idx) => {
+                const opt = document.createElement("option");
+                opt.value = idx;
+                opt.textContent = m;
+                monatSelect.appendChild(opt);
+            });
+
+            const koptMonatSelect = document.getElementById("kopt-monat-input");
+            KOPT_MONATE.forEach((m, idx) => {
+                const opt = document.createElement("option");
+                opt.value = idx + 1;
+                opt.textContent = `${idx + 1}. ${m.name} (${m.alt})`;
+                koptMonatSelect.appendChild(opt);
+            });
+
+            mussStatusUpdate();
+            kalenderRendern();
+            detailsAnzeigen(ausgewaehltesDatum);
+            umrechnerInit();
+        }
+
+        function mussStatusUpdate() {
+            document.getElementById("monat-auswahl").value = aktuellesDatum.getMonth();
+            document.getElementById("jahr-eingabe").value = aktuellesDatum.getFullYear();
+        }
+
+        function themeUmschalten() {
+            document.body.classList.toggle("light-mode");
+            const istHell = document.body.classList.contains("light-mode");
+            document.getElementById("theme-icon").textContent = istHell ? "🌙" : "☀️";
+            document.getElementById("theme-text").textContent = istHell ? "Dunkel" : "Hell";
+        }
+
+        function kalenderRendern() {
+            const jahr = aktuellesDatum.getFullYear();
+            const monat = aktuellesDatum.getMonth();
+
+            document.getElementById("kalender-monat-titel").textContent = `${GREG_MONATE[monat]} ${jahr}`;
+
+            const ersterTagKopt = berechneKoptischesDatum(jahr, monat + 1, 1);
+            const tageImMonat = new Date(jahr, monat + 1, 0).getDate();
+            const letzterTagKopt = berechneKoptischesDatum(jahr, monat + 1, tageImMonat);
+            
+            if (ersterTagKopt.monatName === letzterTagKopt.monatName) {
+                document.getElementById("koptischer-monat-titel").textContent = `${ersterTagKopt.monatName} ${ersterTagKopt.jahr} A.M.`;
+            } else {
+                document.getElementById("koptischer-monat-titel").textContent = `${ersterTagKopt.monatName} (${ersterTagKopt.monatAlt}) / ${letzterTagKopt.monatName} (${letzterTagKopt.monatAlt}) ${letzterTagKopt.jahr} A.M.`;
+            }
+
+            const gitter = document.getElementById("kalender-gitter");
+            gitter.innerHTML = "";
+
+            WOCHENTAGE.forEach(tag => {
+                const kopf = document.createElement("div");
+                kopf.className = "wochentag-kopf";
+                kopf.textContent = tag;
+                gitter.appendChild(kopf);
+            });
+
+            const ersterWochentag = new Date(jahr, monat, 1).getDay();
+            const versatz = (ersterWochentag === 0) ? 6 : ersterWochentag - 1;
+
+            for (let i = 0; i < versatz; i++) {
+                const leeresFeld = document.createElement("div");
+                leeresFeld.className = "kalender-tag tag-leer";
+                gitter.appendChild(leeresFeld);
+            }
+
+            const heute = new Date();
+
+            for (let d = 1; d <= tageImMonat; d++) {
+                const datum = new Date(jahr, monat, d);
+                const info = holeTagesEreignisse(datum);
+                const tagElement = document.createElement("div");
+                
+                let istHeute = (datum.getDate() === heute.getDate() && 
+                                datum.getMonth() === heute.getMonth() && 
+                                datum.getFullYear() === heute.getFullYear());
+
+                let istAusgewaehlt = (datum.getDate() === ausgewaehltesDatum.getDate() &&
+                                     datum.getMonth() === ausgewaehltesDatum.getMonth() &&
+                                     datum.getFullYear() === ausgewaehltesDatum.getFullYear());
+
+                tagElement.className = `kalender-tag ${istHeute ? 'tag-heute' : ''} ${istAusgewaehlt ? 'tag-ausgewaehlt' : ''}`;
+                tagElement.onclick = () => {
+                    ausgewaehltesDatum = datum;
+                    kalenderRendern();
+                    detailsAnzeigen(datum);
+                };
+
+                let badgesHtml = "";
+                info.ereignisse.forEach(e => {
+                    let badgeKlasse = "badge-fasten-streng";
+                    if (e.typ === "FASTEN_FISCH") badgeKlasse = "badge-fasten-fisch";
+                    if (e.typ === "FEST_KLEIN") badgeKlasse = "badge-fest-klein";
+                    if (e.typ === "FEST_GROSS") badgeKlasse = "badge-fest-gross";
+
+                    badgesHtml += `<div class="tag-badge ${badgeKlasse}">${e.icon} ${e.text}</div>`;
+                });
+                
+                tagElement.innerHTML = `
+                    <div class="tag-kopf-zeile">
+                        <span class="greg-tag">${d}</span>
+                        <span class="kopt-tag">${info.kopt.tag}. ${info.kopt.monatName} (${info.kopt.monatAlt})</span>
+                    </div>
+                    <div class="tag-badges-liste">${badgesHtml}</div>
+                `;
+
+                gitter.appendChild(tagElement);
+            }
+        }
+
+        function detailsAnzeigen(gregDatum) {
+            const info = holeTagesEreignisse(gregDatum);
+            const wochentagName = GREG_TAGE[gregDatum.getDay()];
+            const monatName = GREG_MONATE[gregDatum.getMonth()];
+            
+            document.getElementById("detail-greg-datum").textContent = `Gregorianisch: ${wochentagName}, ${gregDatum.getDate()}. ${monatName} ${gregDatum.getFullYear()}`;
+            document.getElementById("detail-kopt-datum").textContent = `Koptisches Datum: ${info.kopt.tag}. ${info.kopt.monatName} (${info.kopt.monatAlt}) ${info.kopt.jahr} A.M.`;
+
+            const liste = document.getElementById("detail-ereignisse-liste");
+            liste.innerHTML = "";
+
+            if (info.ereignisse.length === 0) {
+                liste.innerHTML = "<li>🕊️ Keine besonderen Feste oder Fastenzeiten heute (Normaler Tag).</li>";
+            } else {
+                info.ereignisse.forEach(e => {
+                    const li = document.createElement("li");
+                    li.innerHTML = `${e.icon} <span>${e.text}</span>`;
+                    liste.appendChild(li);
+                });
+            }
+
+            const box = document.getElementById("detail-fastenregel-box");
+            const titel = document.getElementById("detail-fasten-titel");
+            const punkte = document.getElementById("detail-fasten-punkte");
+
+            if (info.fastenTyp === "STRENG") {
+                box.style.backgroundColor = "#31134a";
+                box.style.borderColor = "#6b21a8";
+                titel.innerHTML = "🌱 Fastenregel für heute: STRENGES FASTEN (Rein Vegan)";
+                punkte.innerHTML = `
+                    <li><strong>Erlaubt:</strong> Obst, Gemüse, Getreide, Brot, Hülsenfrüchte, Nüsse.</li>
+                    <li><strong>Verboten:</strong> Fleisch, Geflügel, Fisch, Milch, Käse, Butter, Eier.</li>
+                    <li><strong>Fastenstunden (🕒):</strong> Enthaltung von Speise &amp; Trank bis nach der Heiligen Liturgie.</li>
+                `;
+            } else if (info.fastenTyp === "FISCH") {
+                box.style.backgroundColor = "#0c4a6e";
+                box.style.borderColor = "#0284c7";
+                titel.innerHTML = "🐟 Fastenregel für heute: FASTEN MIT FISCH-ERLAUBNIS";
+                punkte.innerHTML = `
+                    <li><strong>Erlaubt:</strong> Alle pflanzlichen Speisen + <u>Fisch &amp; Meeresfrüchte</u>.</li>
+                    <li><strong>Verboten:</strong> Fleisch, Geflügel, Milchprodukte, Käse, Butter, Eier.</li>
+                    <li><strong>Fastenstunden (🕒):</strong> Enthaltung bis nach der Heiligen Liturgie.</li>
+                `;
+            } else {
+                box.style.backgroundColor = "#14532d";
+                box.style.borderColor = "#16a34a";
+                titel.innerHTML = "🕊️ Fastenregel für heute: FASTENFREI";
+                punkte.innerHTML = `
+                    <li><strong>Erlaubt:</strong> Alle Speisen ohne Einschränkung (keine Fastenregeln).</li>
+                `;
+            }
+        }
+
+        function monatWechseln(delta) {
+            aktuellesDatum.setMonth(aktuellesDatum.getMonth() + delta);
+            mussStatusUpdate();
+            kalenderRendern();
+        }
+
+        function heuteGehen() {
+            aktuellesDatum = new Date();
+            ausgewaehltesDatum = new Date();
+            mussStatusUpdate();
+            kalenderRendern();
+            detailsAnzeigen(ausgewaehltesDatum);
+        }
+
+        function datumAusgewaehlt() {
+            const monat = parseInt(document.getElementById("monat-auswahl").value);
+            const jahr = parseInt(document.getElementById("jahr-eingabe").value);
+            if (!isNaN(monat) && !isNaN(jahr)) {
+                aktuellesDatum = new Date(jahr, monat, 1);
+                kalenderRendern();
+            }
+        }
+
+        function umrechnerInit() {
+            const heute = new Date();
+            const yyyy = heute.getFullYear();
+            const mm = String(heute.getMonth() + 1).padStart(2, '0');
+            const dd = String(heute.getDate()).padStart(2, '0');
+            document.getElementById("greg-input-umrechner").value = `${yyyy}-${mm}-${dd}`;
+            umrechnenGregZuKopt();
+            umrechnenKoptZuGreg();
+        }
+
+        function umrechnenGregZuKopt() {
+            const val = document.getElementById("greg-input-umrechner").value;
+            if (!val) return;
+            const parts = val.split("-");
+            const y = parseInt(parts[0], 10);
+            const m = parseInt(parts[1], 10);
+            const d = parseInt(parts[2], 10);
+            
+            const kopt = berechneKoptischesDatum(y, m, d);
+            document.getElementById("kopt-ergebnis-anzeige").textContent = `${kopt.tag}. ${kopt.monatName} (${kopt.monatAlt}) ${kopt.jahr} A.M.`;
+        }
+
+        function umrechnenKoptZuGreg() {
+            const tag = parseInt(document.getElementById("kopt-tag-input").value, 10);
+            const monat = parseInt(document.getElementById("kopt-monat-input").value, 10);
+            const jahr = parseInt(document.getElementById("kopt-jahr-input").value, 10);
+
+            if (isNaN(tag) || isNaN(monat) || isNaN(jahr) || tag < 1 || tag > 30) {
+                document.getElementById("greg-ergebnis-anzeige").textContent = "Gültigen Tag (1-30) eingeben";
+                return;
+            }
+
+            const jdn = koptZuJdn(jahr, monat, tag);
+            const greg = jdnZuGreg(jdn);
+            
+            const monatName = GREG_MONATE[greg.monat - 1];
+            document.getElementById("greg-ergebnis-anzeige").textContent = `${greg.tag}. ${monatName} ${greg.jahr}`;
+        }
+
+        /* --- EXPORT (.ICS) --- */
+        function kalenderExportieren() {
+            const jahr = aktuellesDatum.getFullYear();
+            let icsInhalt = [
+                "BEGIN:VCALENDAR",
+                "VERSION:2.0",
+                "PRODID:-//Koptisch Orthodoxer Kalender//DE",
+                "CALSCALE:GREGORIAN",
+                "METHOD:PUBLISH",
+                "X-WR-CALNAME:Koptischer Kalender " + jahr
+            ];
+
+            for (let m = 1; m <= 12; m++) {
+                const tageImMonat = new Date(jahr, m, 0).getDate();
+                for (let d = 1; d <= tageImMonat; d++) {
+                    const koptDatum = berechneKoptischesDatum(jahr, m, d);
+                    const yyyymmdd = jahr + String(m).padStart(2, '0') + String(d).padStart(2, '0');
+                    
+                    icsInhalt.push(
+                        "BEGIN:VEVENT",
+                        `UID:kopt-${yyyymmdd}@kopt-orthodox`,
+                        `DTSTART;VALUE=DATE:${yyyymmdd}`,
+                        `SUMMARY:Koptisch: ${koptDatum.tag}. ${koptDatum.monatName}`,
+                        `DESCRIPTION:Koptisches Datum: ${koptDatum.tag}. ${koptDatum.monatName} (${koptDatum.monatAlt}) ${koptDatum.jahr} A.M.`,
+                        "END:VEVENT"
+                    );
+                }
+            }
+
+            icsInhalt.push("END:VCALENDAR");
+
+            const blob = new Blob([icsInhalt.join("\r\n")], { type: "text/calendar;charset=utf-8" });
+            const url = URL.createObjectURL(blob);
+            const link = document.createElement("a");
+            link.href = url;
+            link.download = `Koptischer_Kalender_${jahr}.ics`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            URL.revokeObjectURL(url);
+        }
+
+        window.onload = init;
+    </script>
 </body>
 </html>
