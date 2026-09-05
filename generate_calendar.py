@@ -1,124 +1,308 @@
-from datetime import date, timedelta
+import os
+import datetime
+from datetime import date, datetime as dt, timedelta, timezone
+import uuid
 
-def get_julian_easter(year: int) -> date:
-    """
-    Berechnet das koptisch-orthodoxe Osterdatum für ein gegebenes Jahr (GREGORIANISCHES DATUM).
-    Basiert auf dem Alexandrinischen Computus (+13 Tage Versatz im 20./21. Jahrhundert).
-    """
-    a = year % 19
-    b = year % 4
-    c = year % 7
-    d = (19 * a + 15) % 30
-    e = (2 * b + 4 * c + 6 * d + 6) % 7
-    return date(year, 3, 22) + timedelta(days=(d + e + 13))
+# ==============================================================================
+# 1. KOPTISCHE DATUMSBERECHNUNG (JDN-KONVERTIERUNG)
+# ==============================================================================
 
-def is_coptic_leap_year(coptic_year: int) -> bool:
-    """Prüft, ob ein koptisches Jahr ein Schaltjahr ist."""
-    return (coptic_year % 4) == 3
+COPTIC_MONTHS = [
+    ("Thout", "Tout"),
+    ("Paopi", "Baba"),
+    ("Hathor", "Hatour"),
+    ("Koiak", "Kiahk"),
+    ("Tobi", "Touba"),
+    ("Meshir", "Amshir"),
+    ("Paremhat", "Baramhat"),
+    ("Parmouti", "Baramouda"),
+    ("Pashons", "Bashans"),
+    ("Paoni", "Baona"),
+    ("Epip", "Abib"),
+    ("Mesori", "Misra"),
+    ("Pi Kogi Enavot", "Nasie"),
+]
 
-def generate_coptic_ics():
-    current_year = date.today().year
-    start_year = current_year
-    end_year = current_year + 10  # Generiert automatisch die nächsten 10 Jahre
-    
-    events = []
-
-    for year in range(start_year, end_year + 1):
-        easter = get_julian_easter(year)
-        
-        # --- BEWEGLICHE FESTE & FASTENZEITEN ---
-        jonah_start = easter - timedelta(days=69)
-        jonah_end = jonah_start + timedelta(days=3)  # 3 Tage (Mo, Di, Mi)
-        jonah_feast = easter - timedelta(days=66)     # Do
-        
-        lent_start = easter - timedelta(days=55)      # 55 Tage bis Ostern
-        lazarus_saturday = easter - timedelta(days=8)
-        palm_sunday = easter - timedelta(days=7)
-        maundy_thursday = easter - timedelta(days=3)
-        good_friday = easter - timedelta(days=2)
-        thomas_sunday = easter + timedelta(days=7)
-        ascension = easter + timedelta(days=39)
-        pentecost = easter + timedelta(days=49)
-        
-        apostles_fast_start = pentecost + timedelta(days=1)
-        apostles_fast_end = date(year, 7, 12)        # Apostelfest ist am 12. Juli
-        
-        # --- KOPTISCHES NEUJAHR (NAYROUZ) ---
-        coptic_year = year - 284
-        nayrouz_day = 12 if is_coptic_leap_year(coptic_year - 1) else 11
-        nayrouz = date(year, 9, nayrouz_day)
-        
-        movable_events = [
-            ("⛔ Fasten von Ninive (Jonafasten)", jonah_start, jonah_end, "3-tägiges strenges Fasten.\\nStufe: ⛔ Strenges Fasten (Kein Fisch 🚫)"),
-            ("🎉 Fest des Propheten Jona", jonah_feast, jonah_feast + timedelta(days=1), "Festtag nach dem Jonafasten 🎉"),
-            ("🚫 Große Fastenzeit (Großes Fasten)", lent_start, easter, "55-tägiges Fasten vor der Auferstehung.\\nStufe: 🚫 Kein Fisch erlaubt | Mittwochs & freitags strenges Fasten"),
-            ("🎉 Lazarus-Samstag", lazarus_saturday, lazarus_saturday + timedelta(days=1), "Auferweckung des Hl. Lazarus 🎉"),
-            ("🎉 Palmsonntag (Einzug in Jerusalem)", palm_sunday, palm_sunday + timedelta(days=1), "Großes Herrenfest: Hosanna-Sonntag 🎉"),
-            ("⛔ Donnerstag des Bundes (Gründonnerstag)", maundy_thursday, maundy_thursday + timedelta(days=1), "Kleines Herrenfest: Einsetzung der Hl. Eucharistie ⛔"),
-            ("⛔ Koptischer Karfreitag (Heiliger Freitag)", good_friday, good_friday + timedelta(days=1), "Kreuzigung unseres Herrn Jesus Christus ⛔"),
-            ("🎉 Koptisches Osterfest (Auferstehung des Herrn)", easter, easter + timedelta(days=1), "Großes Herrenfest: Glorreiche Auferstehung 🎉"),
-            ("🎉 Thomas-Sonntag", thomas_sunday, thomas_sunday + timedelta(days=1), "Kleines Herrenfest 🎉"),
-            ("🎉 Christi Himmelfahrt", ascension, ascension + timedelta(days=1), "Großes Herrenfest 🎉"),
-            ("🎉 Pfingsten (Herabkunft des Heiligen Geistes)", pentecost, pentecost + timedelta(days=1), "Großes Herrenfest 🎉"),
-            ("🐟 Apostelfasten", apostles_fast_start, apostles_fast_end, "Fasten der Hl. Apostel.\\nStufe: 🐟 Fisch erlaubt (außer an Mittwochen & Freitagen ⚠️)"),
-        ]
-
-        fixed_events = [
-            ("⛔ Paramoni (Weihnachtsvorabend)", date(year, 1, 6), date(year, 1, 7), "Strenges Fasten vor Weihnachten (Kein Fisch 🚫) ⛔"),
-            ("🎉 Koptisches Weihnachtsfest (Geburt Christi)", date(year, 1, 7), date(year, 1, 8), "Großes Herrenfest 🎉"),
-            ("🎉 Fest der Beschneidung des Herrn", date(year, 1, 14), date(year, 1, 15), "Kleines Herrenfest 🎉"),
-            ("⛔ Paramoni (Epiphanias-Vorabend)", date(year, 1, 18), date(year, 1, 19), "Strenges Fasten vor der Taufe Jesu (Kein Fisch 🚫) ⛔"),
-            ("🎉 Taufe Jesu (Epiphanias / Theophanie)", date(year, 1, 19), date(year, 1, 20), "Großes Herrenfest 🎉"),
-            ("🎉 Erstes Wunder Jesu (Hochzeit zu Kana)", date(year, 1, 21), date(year, 1, 22), "Kleines Herrenfest 🎉"),
-            ("🎉 Darstellung Jesu im Tempel", date(year, 2, 15), date(year, 2, 16), "Kleines Herrenfest 🎉"),
-            ("🎉 Fest des Heiligen Kreuzes (Frühling)", date(year, 3, 19), date(year, 3, 20), "Auffindung des Hl. Kreuzes durch Kaiserin Helena 🎉"),
-            ("🎉 Einzug der Hl. Familie in Ägypten", date(year, 6, 1), date(year, 6, 2), "Kleines Herrenfest 🎉"),
-            ("🎉 Fest der Heiligen Apostel (Petrus & Paulus)", date(year, 7, 12), date(year, 7, 13), "Gedenktag der Apostelfürsten St. Petrus und St. Paulus 🎉"),
-            ("🐟 Marienfasten", date(year, 8, 7), date(year, 8, 22), "15-tägiges Fasten der Jungfrau Maria.\\nStufe: 🐟 Fisch erlaubt (außer an Mittwochen & Freitagen ⚠️)"),
-            ("🎉 Die Verklärung Jesu (Metamorphosis)", date(year, 8, 19), date(year, 8, 20), "Kleines Herrenfest 🎉"),
-            ("🎉 Aufnahme des Körpers der Hl. Maria", date(year, 8, 22), date(year, 8, 23), "Fest der Entschlafung und Aufnahme der Gottesgebärerin (Theotokos) 🎉"),
-            (f"🎉 Nayrouz (Koptisches Neujahr {coptic_year})", nayrouz, nayrouz + timedelta(days=1), f"Koptisches Neujahr (1. Tout {coptic_year}) 🎉"),
-            ("🎉 Fest des Heiligen Kreuzes (Herbst)", date(year, 9, 27), date(year, 9, 30), "3-tägiges Fest der Einweihung der Grabeskirche 🎉"),
-            ("🐟 Adventsfasten / Weihnachtsfasten", date(year, 11, 25), date(year + 1, 1, 7), "43-tägiges Weihnachtsfasten.\\nStufe: 🐟 Fisch erlaubt (außer an Mittwochen & Freitagen ⚠️ sowie in der letzten Woche)"),
-        ]
-
-        # PRÜFUNG: Verkündigung des Herrn (29. Baramhat / 7. April)
-        # Fällt es in die Karwoche (letzter Freitag der Fastenzeit bis Ostersonntag), wird es AUSGEKLAMMERT.
-        annunciation = date(year, 4, 7)
-        last_friday_lent = easter - timedelta(days=9)
-        if not (last_friday_lent <= annunciation <= (easter + timedelta(days=1))):
-            fixed_events.append(("🎉 Verkündigung des Herrn", annunciation, annunciation + timedelta(days=1), "Großes Herrenfest 🎉"))
-
-        all_year_events = movable_events + fixed_events
-        
-        for summary, dtstart, dtend, desc in all_year_events:
-            event_slug = summary.split()[1].replace("(", "").replace(")", "").lower() if len(summary.split()) > 1 else "event"
-            uid = f"{dtstart.strftime('%Y%m%d')}-{event_slug}-{year}@koptisch-orthodox.org"
-            events.append(
-                f"BEGIN:VEVENT\n"
-                f"UID:{uid}\n"
-                f"DTSTAMP:20260903T120000Z\n"
-                f"SUMMARY:{summary}\n"
-                f"DESCRIPTION:{desc}\n"
-                f"DTSTART;VALUE=DATE:{dtstart.strftime('%Y%m%d')}\n"
-                f"DTEND;VALUE=DATE:{dtend.strftime('%Y%m%d')}\n"
-                f"END:VEVENT"
-            )
-
-    ics_content = (
-        "BEGIN:VCALENDAR\n"
-        "VERSION:2.0\n"
-        "PRODID:-//Koptisch-Orthodoxer Kalender Generator//DE\n"
-        "CALSCALE:GREGORIAN\n"
-        "METHOD:PUBLISH\n"
-        "X-WR-CALNAME:Koptisch-Orthodoxer Kalender\n"
-        "X-WR-CALDESC:Offizieller Koptisch-Orthodoxer Liturgiekalender mit Herrenfesten\\, Fastenzeiten und Heiligenfesten.\\n\\nFastenregeln:\\n🐟 Fisch erlaubt (außer an Mittwochen & Freitagen)\\n🚫 Kein Fisch erlaubt\\n⚠️ Mittwochs & freitags: Fasten das ganze Jahr (außer Kamsine/Herrenfeste)\\n⛔ Strenges Fasten\n"
-        + "\n".join(events) +
-        "\nEND:VCALENDAR"
+def gregorian_to_jdn(year: int, month: int, day: int) -> int:
+    a = (14 - month) // 12
+    y = year + 4800 - a
+    m = month + 12 * a - 3
+    return (
+        day
+        + (153 * m + 2) // 5
+        + 365 * y
+        + y // 4
+        - y // 100
+        + y // 400
+        - 32045
     )
 
-    with open("kalender.ics", "w", encoding="utf-8") as f:
-        f.write(ics_content)
+def jdn_to_coptic(jdn: int):
+    c_year = (4 * (jdn - 1825030) + 1463) // 1461
+    jdn_1_thout = 1825029 + 365 * (c_year - 1) + ((c_year - 1) // 4) + 1
+
+    if jdn < jdn_1_thout:
+        c_year -= 1
+        jdn_1_thout = 1825029 + 365 * (c_year - 1) + ((c_year - 1) // 4) + 1
+
+    day_of_year = jdn - jdn_1_thout
+
+    if day_of_year < 360:
+        c_month = day_of_year // 30
+        c_day = (day_of_year % 30) + 1
+    else:
+        c_month = 12
+        c_day = (day_of_year - 360) + 1
+
+    return c_day, c_month, c_year
+
+
+# ==============================================================================
+# 2. DYNAMISCHE OSTER- UND PARAMOUN-BERECHNUNGEN
+# ==============================================================================
+
+def get_orthodox_easter(year: int) -> date:
+    a = year % 4
+    b = year % 7
+    c = year % 19
+    d = (19 * c + 15) % 30
+    e = (2 * a + 4 * b - d + 34) % 7
+    julian_month = (d + e + 114) // 31
+    julian_day = ((d + e + 114) % 31) + 1
+    
+    julian_easter = date(year, julian_month, julian_day)
+    return julian_easter + timedelta(days=13)
+
+def get_paramoun_dates(feast_date: date) -> list[date]:
+    weekday = feast_date.weekday()
+    if weekday == 6:
+        return [feast_date - timedelta(days=2), feast_date - timedelta(days=1)]
+    elif weekday == 0:
+        return [
+            feast_date - timedelta(days=3),
+            feast_date - timedelta(days=2),
+            feast_date - timedelta(days=1)
+        ]
+    else:
+        return [feast_date - timedelta(days=1)]
+
+
+# ==============================================================================
+# 3. KOPTISCHE FASTEN- UND FESTLOGIK (TAGESPRÜFUNG)
+# ==============================================================================
+
+def get_daily_status(g_date: date, c_day: int, m_idx: int) -> str:
+    weekday = g_date.weekday()
+    year = g_date.year
+
+    easter = get_orthodox_easter(year)
+    jona_start = easter - timedelta(days=69)
+    jona_end = jona_start + timedelta(days=2)
+    jona_feast = jona_end + timedelta(days=1)
+    
+    lent_start = easter - timedelta(days=55)
+    lazarus_sat = easter - timedelta(days=8)
+    palm_sunday = easter - timedelta(days=7)
+    good_friday = easter - timedelta(days=2)
+    holy_saturday = easter - timedelta(days=1)
+    
+    fifty_days_end = easter + timedelta(days=49)
+    ascension = easter + timedelta(days=39)
+    
+    apostles_fast_start = fifty_days_end + timedelta(days=1)
+    apostles_fast_end = date(year, 7, 11)
+
+    nativity_date = date(year, 1, 7)
+    theophany_date = date(year, 1, 19)
+    nativity_paramouns = get_paramoun_dates(nativity_date)
+    theophany_paramouns = get_paramoun_dates(theophany_date)
+
+    if g_date == easter:
+        return "🎉 Koptisches Osterfest (Resurrection)"
+    elif g_date == holy_saturday:
+        return "✝️ Koptischer Karsamstag"
+    elif g_date == good_friday:
+        return "✝️ Karfreitag (Strengstes Fasten)"
+    elif g_date == palm_sunday:
+        return "🌿 Palmsonntag"
+    elif g_date == lazarus_sat:
+        return "✝️ Lazarus-Samstag"
+    elif g_date == ascension:
+        return "☁️ Christi Himmelfahrt (Kein Fasten)"
+    elif g_date == fifty_days_end:
+        return "🕊️ Pfingsten (Kein Fasten)"
+    elif jona_start <= g_date <= jona_end:
+        return "🐋 Jona-Fasten (Strenges Fasten)"
+    elif g_date == jona_feast:
+        return "🎉 Fest des Propheten Jona"
+
+    if palm_sunday < g_date < good_friday:
+        return "✝️ Karwoche (Strenges Fasten)"
+
+    if lent_start <= g_date < lazarus_sat:
+        if weekday in (2, 4):
+            return "🥗 Großes Fasten (Mittwoch/Freitag - Streng)"
+        return "🥗 Großes Fasten (Kein Fisch)"
+
+    if easter <= g_date <= fifty_days_end:
+        return "🎉 50 Freudentage / Pentekostarion (Kein Fasten)"
+
+    if apostles_fast_start <= g_date <= apostles_fast_end:
+        if weekday in (2, 4):
+            return "🥗 Apostelfasten (Mittwoch/Freitag - Streng)"
+        return "🐟 Apostelfasten (Fisch erlaubt)"
+
+    if g_date in nativity_paramouns:
+        return "🍽️ Paramoun von Weihnachten (Strenges Fasten)"
+    elif g_date == nativity_date:
+        return "🎉 Koptisches Weihnachtsfest (Fastenfrei)"
+    elif date(year, 1, 8) <= g_date < (theophany_paramouns[0] if theophany_paramouns else theophany_date):
+        if g_date == date(year, 1, 14):
+            return "🎉 Beschneidung des Herrn"
+        return "🎉 12 Freudentage nach Weihnachten (Kein Fasten)"
+
+    if g_date in theophany_paramouns:
+        return "🍽️ Paramoun der Taufe Christi (Strenges Fasten)"
+    elif g_date == theophany_date:
+        return "🎉 Theophanie (Fest der Taufe Christi)"
+    elif g_date == date(year, 1, 21):
+        return "🎉 Hochzeit zu Kana"
+
+    if m_idx == 0:
+        if c_day == 1:
+            return "🎉 Koptisches Neujahr (Nayrouz)"
+        elif 17 <= c_day <= 19:
+            if weekday in (2, 4):
+                return "✝️ Fest der Kreuzerhöhung (Fastentag Mi/Fr)"
+            return "🎉 Fest der Kreuzerhöhung (Kein Fasten)"
+
+    if g_date == date(year, 4, 7):
+        return "🎉 Mariä Verkündigung"
+    elif g_date == date(year, 6, 1):
+        return "🎉 Einzug Christi in Ägypten"
+    elif g_date == date(year, 7, 12):
+        return "🎉 Fest der Apostel Petrus und Paulus"
+    elif g_date == date(year, 8, 19):
+        return "🎉 Verklärung des Herrn"
+    elif g_date == date(year, 8, 22):
+        return "🎉 Aufnahme des Körpers der Hl. Maria"
+
+    if date(year, 8, 7) <= g_date <= date(year, 8, 21):
+        if weekday in (2, 4):
+            return "🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)"
+        return "🐟 Fasten der Hl. Maria (Fisch erlaubt)"
+
+    is_advent = (g_date >= date(year, 11, 25)) or (g_date <= date(year, 1, 6))
+    if is_advent and g_date not in nativity_paramouns and g_date != nativity_date:
+        if weekday in (2, 4):
+            return "🥗 Geburtsfasten (Mittwoch/Freitag - Streng)"
+        return "🐟 Geburtsfasten (Fisch erlaubt)"
+
+    if weekday in (2, 4):
+        return "🥗 Fastentag (Mittwoch/Freitag)"
+
+    return "Kein Fasten"
+
+
+# ==============================================================================
+# 4. REPARATUR-, INTEGRITÄTS- UND ICS-GENERATIONSLOGIK
+# ==============================================================================
+
+def repair_and_read_existing_ics(filepath: str):
+    """Liest die bestehende Datei, entfernt abgebrochene Blöcke am Ende
+
+    und findet das letzte valide Datum.
+    """
+    if not os.path.exists(filepath):
+        return [], None
+
+    with open(filepath, "r", encoding="utf-8") as f:
+        lines = [line.rstrip('\r\n') for line in f.readlines()]
+
+    # Entferne evtl. vorhandenen VCALENDAR-Abschluss für nahtloses Anfügen
+    if lines and lines[-1] == "END:VCALENDAR":
+        lines.pop()
+
+    # Schneide unvollständige Zeilen/Events am Ende ab
+    while lines and lines[-1] != "END:VEVENT":
+        lines.pop()
+
+    # Letztes Startdatum ermitteln
+    last_date = None
+    for line in reversed(lines):
+        if line.startswith("DTSTART"):
+            date_str = line.split(":")[-1]
+            last_date = dt.strptime(date_str, "%Y%m%d").date()
+            break
+
+    if last_date:
+        next_start_date = last_date + timedelta(days=1)
+        return lines, next_start_date
+
+    return [], None
+
+
+def generate_coptic_ics(target_end_date: date, filename: str = "kalender.ics"):
+    """Prüft eine vorhandene Datei, repariert Lücken und führt die Kalendererstellung fort."""
+    existing_lines, resume_date = repair_and_read_existing_ics(filename)
+
+    if existing_lines and resume_date:
+        print(f"Bestehende Datei erkannt und repariert. Setze nahtlos ab {resume_date} fort...")
+        start_date = resume_date
+        base_header = "\n".join(existing_lines) + "\n"
+    else:
+        print("Erstelle neue Kalenderdatei...")
+        start_date = date.today()  # Beginn der ersten Nasie-Tage
+        base_header = """BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koptischer Kalender Generator//DE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koptischer Kalender
+X-WR-TIMEZONE:Europe/Vienna
+"""
+
+    if start_date > target_end_date:
+        print("Der Kalender ist bereits auf dem neuesten Stand.")
+        return
+
+    events = []
+    curr = start_date
+
+    while curr <= target_end_date:
+        jdn = gregorian_to_jdn(curr.year, curr.month, curr.day)
+        c_day, m_idx, c_year = jdn_to_coptic(jdn)
+
+        m_name_eng, m_name_alt = COPTIC_MONTHS[m_idx]
+        status = get_daily_status(curr, c_day, m_idx)
+
+        coptic_date_str = f"{c_day}. {m_name_eng} ({m_name_alt}) {c_year}"
+        dtstart = curr.strftime("%Y%m%d")
+        dtend = (curr + timedelta(days=1)).strftime("%Y%m%d")
+        uid = f"coptic-{dtstart}-{uuid.uuid4().hex[:6]}@kalender"
+        dtstamp = dt.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+        event = f"""BEGIN:VEVENT
+UID:{uid}
+DTSTAMP:{dtstamp}
+DTSTART;VALUE=DATE:{dtstart}
+DTEND;VALUE=DATE:{dtend}
+SUMMARY:📅 {coptic_date_str} | {status}
+DESCRIPTION:Koptisches Datum: {coptic_date_str}\\nStatus: {status}
+STATUS:CONFIRMED
+END:VEVENT"""
+        events.append(event)
+        curr += timedelta(days=1)
+
+    events_block = "\n".join(events)
+    final_ics = f"{base_header}{events_block}\nEND:VCALENDAR\n"
+
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(final_ics)
+
+    print(f"Kalenderdatei '{filename}' wurde erfolgreich bis {target_end_date} vervollständigt!")
 
 if __name__ == "__main__":
-    generate_coptic_ics()
+    # Generiert/Repariert den Kalender bis 1 Jahr in die Zukunft
+    target_date = date.today() + timedelta(days=365)
+    generate_coptic_ics(target_date, "kalender.ics")
