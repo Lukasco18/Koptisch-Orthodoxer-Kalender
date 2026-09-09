@@ -34,4 +34,4 @@ jobs:
           git config local user.name "GitHub Action"
           git add kalender.ics
           git commit -m "Auto-update kalender.ics" || exit 0
-          git push
+          git push 
