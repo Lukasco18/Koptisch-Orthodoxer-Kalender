@@ -229,4 +229,2866 @@ DESCRIPTION:43-tägiges Weihnachtsfasten.\nStufe: 🐟 Fisch erlaubt (außer an 
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20270107
 END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261126-537a26@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:📅 17. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 17. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261127-076c9d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:📅 18. Hathor (Hatour) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 18. Hathor (Hatour) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261128-457950@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:📅 19. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 19. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261129-e86a3b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:📅 20. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 20. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261130-cc9942@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:📅 21. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 21. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261201-7a9590@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:📅 22. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 22. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261202-afbbd1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:📅 23. Hathor (Hatour) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 23. Hathor (Hatour) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261203-e58e5c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:📅 24. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 24. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261204-d6c05e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:📅 25. Hathor (Hatour) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 25. Hathor (Hatour) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261205-580893@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:📅 26. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 26. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261206-2bbaaf@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:📅 27. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 27. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261207-954fd5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:📅 28. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 28. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261208-056ff8@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:📅 29. Hathor (Hatour) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 29. Hathor (Hatour) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261209-b128df@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:📅 30. Hathor (Hatour) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 30. Hathor (Hatour) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261210-e0a8ac@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:📅 1. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 1. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261211-8d6783@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:📅 2. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 2. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261212-c536ef@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:📅 3. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 3. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261213-6e15cf@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+SUMMARY:📅 4. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 4. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261214-792d30@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SUMMARY:📅 5. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 5. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261215-490f2b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:📅 6. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 6. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261216-84ef6a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:📅 7. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 7. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261217-97ac54@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:📅 8. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 8. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261218-086952@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:📅 9. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 9. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261219-3e9906@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:📅 10. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 10. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261220-9e2761@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:📅 11. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 11. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261221-d430ef@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SUMMARY:📅 12. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 12. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261222-0c14eb@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:📅 13. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 13. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261223-4e01f5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:📅 14. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 14. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261224-12d0f9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:📅 15. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 15. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261225-d31e67@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:📅 16. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 16. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261226-b06926@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:📅 17. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 17. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261227-98cbb0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261227
+DTEND;VALUE=DATE:20261228
+SUMMARY:📅 18. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 18. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261228-09d72d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261228
+DTEND;VALUE=DATE:20261229
+SUMMARY:📅 19. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 19. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261229-9ca06f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:📅 20. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 20. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261230-e2b6b3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:📅 21. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 21. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20261231-034967@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:📅 22. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 22. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270101-db6459@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270101
+DTEND;VALUE=DATE:20270102
+SUMMARY:📅 23. Koiak (Kiahk) 1743 | 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 23. Koiak (Kiahk) 1743\nStatus: 🥗 Geburtsfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270102-bade85@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:📅 24. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 24. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270103-664a67@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270103
+DTEND;VALUE=DATE:20270104
+SUMMARY:📅 25. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 25. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270104-b185dc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270105
+SUMMARY:📅 26. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 26. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270105-cff377@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:📅 27. Koiak (Kiahk) 1743 | 🐟 Geburtsfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 27. Koiak (Kiahk) 1743\nStatus: 🐟 Geburtsfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270106-9eb92e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:📅 28. Koiak (Kiahk) 1743 | 🍽️ Paramoun von Weihnachten (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 28. Koiak (Kiahk) 1743\nStatus: 🍽️ Paramoun von Weihnachten (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270107-507250@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:📅 29. Koiak (Kiahk) 1743 | 🎉 Koptisches Weihnachtsfest (Fastenfrei)
+DESCRIPTION:Koptisches Datum: 29. Koiak (Kiahk) 1743\nStatus: 🎉 Koptisches Weihnachtsfest (Fastenfrei)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270108-086f66@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:📅 30. Koiak (Kiahk) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 30. Koiak (Kiahk) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270109-445097@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:📅 1. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 1. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270110-f464ac@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270111
+SUMMARY:📅 2. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 2. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270111-16c9e8@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:📅 3. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 3. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270112-2a3e8a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:📅 4. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 4. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270113-ae851a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:📅 5. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 5. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270114-4bd918@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:📅 6. Tobi (Touba) 1743 | 🎉 Beschneidung des Herrn
+DESCRIPTION:Koptisches Datum: 6. Tobi (Touba) 1743\nStatus: 🎉 Beschneidung des Herrn
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270115-140626@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:📅 7. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 7. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270116-f844a1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:📅 8. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 8. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270117-4a8435@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270117
+DTEND;VALUE=DATE:20270118
+SUMMARY:📅 9. Tobi (Touba) 1743 | 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 9. Tobi (Touba) 1743\nStatus: 🎉 12 Freudentage nach Weihnachten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270118-fdc612@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SUMMARY:📅 10. Tobi (Touba) 1743 | 🍽️ Paramoun der Taufe Christi (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 10. Tobi (Touba) 1743\nStatus: 🍽️ Paramoun der Taufe Christi (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270119-04bc83@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:📅 11. Tobi (Touba) 1743 | 🎉 Theophanie (Fest der Taufe Christi)
+DESCRIPTION:Koptisches Datum: 11. Tobi (Touba) 1743\nStatus: 🎉 Theophanie (Fest der Taufe Christi)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270120-8404ee@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:📅 12. Tobi (Touba) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 12. Tobi (Touba) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270121-6bd7dc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:📅 13. Tobi (Touba) 1743 | 🎉 Hochzeit zu Kana
+DESCRIPTION:Koptisches Datum: 13. Tobi (Touba) 1743\nStatus: 🎉 Hochzeit zu Kana
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270122-d4bd7d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:📅 14. Tobi (Touba) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 14. Tobi (Touba) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270123-d0c50d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:📅 15. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 15. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270124-366865@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270124
+DTEND;VALUE=DATE:20270125
+SUMMARY:📅 16. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 16. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270125-800926@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:📅 17. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 17. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270126-6c79f8@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:📅 18. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 18. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270127-048feb@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:📅 19. Tobi (Touba) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 19. Tobi (Touba) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270128-714a69@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:📅 20. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 20. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270129-7cdcd6@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:📅 21. Tobi (Touba) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 21. Tobi (Touba) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270130-34a2ae@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:📅 22. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 22. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270131-a804d3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:📅 23. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 23. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270201-3523a1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+SUMMARY:📅 24. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 24. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270202-9f2b2b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:📅 25. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 25. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270203-73a410@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:📅 26. Tobi (Touba) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 26. Tobi (Touba) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270204-73b20c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:📅 27. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 27. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270205-b94a69@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:📅 28. Tobi (Touba) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 28. Tobi (Touba) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270206-a3f89c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:📅 29. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 29. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270207-b03a62@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270207
+DTEND;VALUE=DATE:20270208
+SUMMARY:📅 30. Tobi (Touba) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 30. Tobi (Touba) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270208-e9d432@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270208
+DTEND;VALUE=DATE:20270209
+SUMMARY:📅 1. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 1. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270209-24f637@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:📅 2. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 2. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270210-fa529a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:📅 3. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 3. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270211-c3818a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:📅 4. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 4. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270212-b7ec80@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270212
+DTEND;VALUE=DATE:20270213
+SUMMARY:📅 5. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 5. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270213-513652@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:📅 6. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 6. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270214-2ca190@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270215
+SUMMARY:📅 7. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 7. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270215-f56bd4@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:📅 8. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 8. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270216-5a013c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:📅 9. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 9. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270217-ff4c2f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:📅 10. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 10. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270218-701b83@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:📅 11. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 11. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270219-dd225f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:📅 12. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 12. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270220-828978@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:📅 13. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 13. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270221-ccb6fa@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270221
+DTEND;VALUE=DATE:20270222
+SUMMARY:📅 14. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 14. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270222-a2e96e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+SUMMARY:📅 15. Meshir (Amshir) 1743 | 🐋 Jona-Fasten (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 15. Meshir (Amshir) 1743\nStatus: 🐋 Jona-Fasten (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270223-136368@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:📅 16. Meshir (Amshir) 1743 | 🐋 Jona-Fasten (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 16. Meshir (Amshir) 1743\nStatus: 🐋 Jona-Fasten (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270224-495cb2@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:📅 17. Meshir (Amshir) 1743 | 🐋 Jona-Fasten (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 17. Meshir (Amshir) 1743\nStatus: 🐋 Jona-Fasten (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270225-74dd4c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:📅 18. Meshir (Amshir) 1743 | 🎉 Fest des Propheten Jona
+DESCRIPTION:Koptisches Datum: 18. Meshir (Amshir) 1743\nStatus: 🎉 Fest des Propheten Jona
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270226-14bde3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SUMMARY:📅 19. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 19. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270227-f8f3b2@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:📅 20. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 20. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270228-296853@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270228
+DTEND;VALUE=DATE:20270301
+SUMMARY:📅 21. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 21. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270301-149410@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270301
+DTEND;VALUE=DATE:20270302
+SUMMARY:📅 22. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 22. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270302-d7a0f9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:📅 23. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 23. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270303-3bebfb@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:📅 24. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 24. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270304-15736d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:📅 25. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 25. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270305-8ca22c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270305
+DTEND;VALUE=DATE:20270306
+SUMMARY:📅 26. Meshir (Amshir) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 26. Meshir (Amshir) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270306-3c0a40@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:📅 27. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 27. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270307-8cdfd2@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270307
+DTEND;VALUE=DATE:20270308
+SUMMARY:📅 28. Meshir (Amshir) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 28. Meshir (Amshir) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270308-f14c61@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270308
+DTEND;VALUE=DATE:20270309
+SUMMARY:📅 29. Meshir (Amshir) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 29. Meshir (Amshir) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270309-ddaa79@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:📅 30. Meshir (Amshir) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 30. Meshir (Amshir) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270310-c766fd@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:📅 1. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 1. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270311-7def14@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:📅 2. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 2. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270312-f1e45e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:📅 3. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 3. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270313-356a3e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:📅 4. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 4. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270314-ed09fc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:📅 5. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 5. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270315-190a3e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+SUMMARY:📅 6. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 6. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270316-b8fabd@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:📅 7. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 7. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270317-2c3332@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:📅 8. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 8. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270318-73afed@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:📅 9. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 9. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270319-af91dd@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:📅 10. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 10. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270320-aff78a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+SUMMARY:📅 11. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 11. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270321-660025@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270322
+SUMMARY:📅 12. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 12. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270322-ae293d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270322
+DTEND;VALUE=DATE:20270323
+SUMMARY:📅 13. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 13. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270323-d5154e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:📅 14. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 14. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270324-bc8f87@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270324
+DTEND;VALUE=DATE:20270325
+SUMMARY:📅 15. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 15. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270325-4453c9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:📅 16. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 16. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270326-c378dc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270326
+DTEND;VALUE=DATE:20270327
+SUMMARY:📅 17. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 17. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270327-83e7bc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+SUMMARY:📅 18. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 18. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270328-23778a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270328
+DTEND;VALUE=DATE:20270329
+SUMMARY:📅 19. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 19. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270329-a07331@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270330
+SUMMARY:📅 20. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 20. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270330-a2006f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:📅 21. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 21. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270331-1169d2@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:📅 22. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 22. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270401-b94103@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:📅 23. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 23. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270402-bc07b0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:📅 24. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 24. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270403-9e3337@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:📅 25. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 25. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270404-f14ea1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270404
+DTEND;VALUE=DATE:20270405
+SUMMARY:📅 26. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 26. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270405-bae20f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:📅 27. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 27. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270406-dc1896@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:📅 28. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 28. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270407-126971@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270408
+SUMMARY:📅 29. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 29. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270408-e2c11f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:📅 30. Paremhat (Baramhat) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 30. Paremhat (Baramhat) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270409-c7e7c5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270409
+DTEND;VALUE=DATE:20270410
+SUMMARY:📅 1. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 1. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270410-45fe7f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:📅 2. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 2. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270411-cfba33@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270411
+DTEND;VALUE=DATE:20270412
+SUMMARY:📅 3. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 3. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270412-cb2533@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:📅 4. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 4. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270413-84330a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:📅 5. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 5. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270414-56da41@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
+SUMMARY:📅 6. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 6. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270415-4d7ae1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:📅 7. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 7. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270416-3721e9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:📅 8. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 8. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270417-fa61dc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:📅 9. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 9. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270418-8279fe@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270418
+DTEND;VALUE=DATE:20270419
+SUMMARY:📅 10. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 10. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270419-142152@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:📅 11. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 11. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270420-bb50db@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:📅 12. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 12. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270421-efcae0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270422
+SUMMARY:📅 13. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 13. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270422-6c41af@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:📅 14. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Kein Fisch)
+DESCRIPTION:Koptisches Datum: 14. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Kein Fisch)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270423-c5b2c1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:📅 15. Parmouti (Baramouda) 1743 | 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 15. Parmouti (Baramouda) 1743\nStatus: 🥗 Großes Fasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270424-f96bd9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:📅 16. Parmouti (Baramouda) 1743 | ✝️ Lazarus-Samstag
+DESCRIPTION:Koptisches Datum: 16. Parmouti (Baramouda) 1743\nStatus: ✝️ Lazarus-Samstag
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270425-b35bcf@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270425
+DTEND;VALUE=DATE:20270426
+SUMMARY:📅 17. Parmouti (Baramouda) 1743 | 🌿 Palmsonntag
+DESCRIPTION:Koptisches Datum: 17. Parmouti (Baramouda) 1743\nStatus: 🌿 Palmsonntag
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270426-243664@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270427
+SUMMARY:📅 18. Parmouti (Baramouda) 1743 | ✝️ Karwoche (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 18. Parmouti (Baramouda) 1743\nStatus: ✝️ Karwoche (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270427-512008@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:📅 19. Parmouti (Baramouda) 1743 | ✝️ Karwoche (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 19. Parmouti (Baramouda) 1743\nStatus: ✝️ Karwoche (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270428-b85cc1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270429
+SUMMARY:📅 20. Parmouti (Baramouda) 1743 | ✝️ Karwoche (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 20. Parmouti (Baramouda) 1743\nStatus: ✝️ Karwoche (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270429-593a41@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:📅 21. Parmouti (Baramouda) 1743 | ✝️ Karwoche (Strenges Fasten)
+DESCRIPTION:Koptisches Datum: 21. Parmouti (Baramouda) 1743\nStatus: ✝️ Karwoche (Strenges Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270430-fb7aaa@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:📅 22. Parmouti (Baramouda) 1743 | ✝️ Karfreitag (Strengstes Fasten)
+DESCRIPTION:Koptisches Datum: 22. Parmouti (Baramouda) 1743\nStatus: ✝️ Karfreitag (Strengstes Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270501-affecc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270502
+SUMMARY:📅 23. Parmouti (Baramouda) 1743 | ✝️ Koptischer Karsamstag
+DESCRIPTION:Koptisches Datum: 23. Parmouti (Baramouda) 1743\nStatus: ✝️ Koptischer Karsamstag
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270502-5eaa3f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270502
+DTEND;VALUE=DATE:20270503
+SUMMARY:📅 24. Parmouti (Baramouda) 1743 | 🎉 Koptisches Osterfest (Resurrection)
+DESCRIPTION:Koptisches Datum: 24. Parmouti (Baramouda) 1743\nStatus: 🎉 Koptisches Osterfest (Resurrection)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270503-d7d5c5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:📅 25. Parmouti (Baramouda) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 25. Parmouti (Baramouda) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270504-6796a1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:📅 26. Parmouti (Baramouda) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 26. Parmouti (Baramouda) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270505-4ca72d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270505
+DTEND;VALUE=DATE:20270506
+SUMMARY:📅 27. Parmouti (Baramouda) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 27. Parmouti (Baramouda) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270506-1604a3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:📅 28. Parmouti (Baramouda) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 28. Parmouti (Baramouda) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270507-d3d69a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:📅 29. Parmouti (Baramouda) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 29. Parmouti (Baramouda) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270508-83470e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270508
+DTEND;VALUE=DATE:20270509
+SUMMARY:📅 30. Parmouti (Baramouda) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 30. Parmouti (Baramouda) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270509-1d1145@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270509
+DTEND;VALUE=DATE:20270510
+SUMMARY:📅 1. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 1. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270510-5c00d2@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270511
+SUMMARY:📅 2. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 2. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270511-f3d8bf@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:📅 3. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 3. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270512-dbe467@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270512
+DTEND;VALUE=DATE:20270513
+SUMMARY:📅 4. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 4. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270513-3294c3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:📅 5. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 5. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270514-9257ac@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270514
+DTEND;VALUE=DATE:20270515
+SUMMARY:📅 6. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 6. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270515-cb8a20@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270515
+DTEND;VALUE=DATE:20270516
+SUMMARY:📅 7. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 7. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270516-c73938@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270517
+SUMMARY:📅 8. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 8. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270517-5404ec@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:📅 9. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 9. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270518-ab0636@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:📅 10. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 10. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270519-3e9d64@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270519
+DTEND;VALUE=DATE:20270520
+SUMMARY:📅 11. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 11. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270520-7f9045@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:📅 12. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 12. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270521-d40ef3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:📅 13. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 13. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270522-e57feb@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:📅 14. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 14. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270523-b38001@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270524
+SUMMARY:📅 15. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 15. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270524-7af4eb@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270524
+DTEND;VALUE=DATE:20270525
+SUMMARY:📅 16. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 16. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270525-ced1e0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270526
+SUMMARY:📅 17. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 17. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270526-2c712b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270526
+DTEND;VALUE=DATE:20270527
+SUMMARY:📅 18. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 18. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270527-823f51@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:📅 19. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 19. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270528-ff31ba@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:📅 20. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 20. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270529-a361a6@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+SUMMARY:📅 21. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 21. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270530-83e128@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270530
+DTEND;VALUE=DATE:20270531
+SUMMARY:📅 22. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 22. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270531-b1c846@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270531
+DTEND;VALUE=DATE:20270601
+SUMMARY:📅 23. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 23. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270601-867fa1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:📅 24. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 24. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270602-2eb6b6@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270602
+DTEND;VALUE=DATE:20270603
+SUMMARY:📅 25. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 25. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270603-336f7f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270603
+DTEND;VALUE=DATE:20270604
+SUMMARY:📅 26. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 26. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270604-a239c3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270604
+DTEND;VALUE=DATE:20270605
+SUMMARY:📅 27. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 27. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270605-2e494a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+SUMMARY:📅 28. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 28. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270606-20b875@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270606
+DTEND;VALUE=DATE:20270607
+SUMMARY:📅 29. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 29. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270607-6bd59a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270608
+SUMMARY:📅 30. Pashons (Bashans) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 30. Pashons (Bashans) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270608-81a2cf@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270609
+SUMMARY:📅 1. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 1. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270609-c7b3db@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:📅 2. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 2. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270610-b50e50@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:📅 3. Paoni (Baona) 1743 | ☁️ Christi Himmelfahrt (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 3. Paoni (Baona) 1743\nStatus: ☁️ Christi Himmelfahrt (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270611-ec8963@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270611
+DTEND;VALUE=DATE:20270612
+SUMMARY:📅 4. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 4. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270612-35b27c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:📅 5. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 5. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270613-82c21a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270613
+DTEND;VALUE=DATE:20270614
+SUMMARY:📅 6. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 6. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270614-f8a92f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270615
+SUMMARY:📅 7. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 7. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270615-b79f7e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:📅 8. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 8. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270616-522e17@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
+SUMMARY:📅 9. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 9. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270617-510714@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:📅 10. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 10. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270618-d2590c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270618
+DTEND;VALUE=DATE:20270619
+SUMMARY:📅 11. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 11. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270619-bccbd5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270619
+DTEND;VALUE=DATE:20270620
+SUMMARY:📅 12. Paoni (Baona) 1743 | 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 12. Paoni (Baona) 1743\nStatus: 🎉 50 Freudentage / Pentekostarion (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270620-9a7762@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270621
+SUMMARY:📅 13. Paoni (Baona) 1743 | 🕊️ Pfingsten (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 13. Paoni (Baona) 1743\nStatus: 🕊️ Pfingsten (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270621-ff0884@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270622
+SUMMARY:📅 14. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 14. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270622-194194@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:📅 15. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 15. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270623-dc1cf2@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270623
+DTEND;VALUE=DATE:20270624
+SUMMARY:📅 16. Paoni (Baona) 1743 | 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 16. Paoni (Baona) 1743\nStatus: 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270624-adb76f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:📅 17. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 17. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270625-36afa7@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270625
+DTEND;VALUE=DATE:20270626
+SUMMARY:📅 18. Paoni (Baona) 1743 | 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 18. Paoni (Baona) 1743\nStatus: 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270626-8ad926@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+SUMMARY:📅 19. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 19. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270627-708bc3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270627
+DTEND;VALUE=DATE:20270628
+SUMMARY:📅 20. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 20. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270628-534c20@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270629
+SUMMARY:📅 21. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 21. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270629-1c17fa@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:📅 22. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 22. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270630-65e4b9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270630
+DTEND;VALUE=DATE:20270701
+SUMMARY:📅 23. Paoni (Baona) 1743 | 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 23. Paoni (Baona) 1743\nStatus: 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270701-9d0c26@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270701
+DTEND;VALUE=DATE:20270702
+SUMMARY:📅 24. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 24. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270702-ab35fc@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270702
+DTEND;VALUE=DATE:20270703
+SUMMARY:📅 25. Paoni (Baona) 1743 | 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 25. Paoni (Baona) 1743\nStatus: 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270703-d9cc4d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270704
+SUMMARY:📅 26. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 26. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270704-f004a0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270704
+DTEND;VALUE=DATE:20270705
+SUMMARY:📅 27. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 27. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270705-46892e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:📅 28. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 28. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270706-51775f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270707
+SUMMARY:📅 29. Paoni (Baona) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 29. Paoni (Baona) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270707-f79709@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270708
+SUMMARY:📅 30. Paoni (Baona) 1743 | 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 30. Paoni (Baona) 1743\nStatus: 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270708-06aa96@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:📅 1. Epip (Abib) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 1. Epip (Abib) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270709-26bbd5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270709
+DTEND;VALUE=DATE:20270710
+SUMMARY:📅 2. Epip (Abib) 1743 | 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 2. Epip (Abib) 1743\nStatus: 🥗 Apostelfasten (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270710-314a6e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270711
+SUMMARY:📅 3. Epip (Abib) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 3. Epip (Abib) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270711-002097@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270712
+SUMMARY:📅 4. Epip (Abib) 1743 | 🐟 Apostelfasten (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 4. Epip (Abib) 1743\nStatus: 🐟 Apostelfasten (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270712-8d0f20@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270713
+SUMMARY:📅 5. Epip (Abib) 1743 | 🎉 Fest der Apostel Petrus und Paulus
+DESCRIPTION:Koptisches Datum: 5. Epip (Abib) 1743\nStatus: 🎉 Fest der Apostel Petrus und Paulus
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270713-8c61f1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:📅 6. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 6. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270714-1feb78@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270715
+SUMMARY:📅 7. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 7. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270715-e04d9e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:📅 8. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 8. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270716-ee5e0b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:📅 9. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 9. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270717-b80184@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270717
+DTEND;VALUE=DATE:20270718
+SUMMARY:📅 10. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 10. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270718-884fae@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270719
+SUMMARY:📅 11. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 11. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270719-f00967@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270720
+SUMMARY:📅 12. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 12. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270720-559ffe@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270720
+DTEND;VALUE=DATE:20270721
+SUMMARY:📅 13. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 13. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270721-cb53c4@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270721
+DTEND;VALUE=DATE:20270722
+SUMMARY:📅 14. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 14. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270722-3559c1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:📅 15. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 15. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270723-b3ed9d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:📅 16. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 16. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270724-322897@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270724
+DTEND;VALUE=DATE:20270725
+SUMMARY:📅 17. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 17. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270725-023673@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270725
+DTEND;VALUE=DATE:20270726
+SUMMARY:📅 18. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 18. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270726-d44fa0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270727
+SUMMARY:📅 19. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 19. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270727-6bdff5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:📅 20. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 20. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270728-f32d2a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270729
+SUMMARY:📅 21. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 21. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270729-0db755@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:📅 22. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 22. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270730-70d1b6@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270730
+DTEND;VALUE=DATE:20270731
+SUMMARY:📅 23. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 23. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270731-3ec178@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+SUMMARY:📅 24. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 24. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270801-627f00@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270802
+SUMMARY:📅 25. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 25. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270802-ce6432@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270802
+DTEND;VALUE=DATE:20270803
+SUMMARY:📅 26. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 26. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270803-04f6bb@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:📅 27. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 27. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270804-0ce074@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270804
+DTEND;VALUE=DATE:20270805
+SUMMARY:📅 28. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 28. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270805-4aa3c1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270805
+DTEND;VALUE=DATE:20270806
+SUMMARY:📅 29. Epip (Abib) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 29. Epip (Abib) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270806-311770@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270806
+DTEND;VALUE=DATE:20270807
+SUMMARY:📅 30. Epip (Abib) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 30. Epip (Abib) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270807-c51b7b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270808
+SUMMARY:📅 1. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 1. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270808-7485c3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270808
+DTEND;VALUE=DATE:20270809
+SUMMARY:📅 2. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 2. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270809-c4de25@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20270810
+SUMMARY:📅 3. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 3. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270810-dbb895@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270810
+DTEND;VALUE=DATE:20270811
+SUMMARY:📅 4. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 4. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270811-0254d5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270811
+DTEND;VALUE=DATE:20270812
+SUMMARY:📅 5. Mesori (Misra) 1743 | 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 5. Mesori (Misra) 1743\nStatus: 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270812-2f3e2e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270812
+DTEND;VALUE=DATE:20270813
+SUMMARY:📅 6. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 6. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270813-a7f7e1@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270813
+DTEND;VALUE=DATE:20270814
+SUMMARY:📅 7. Mesori (Misra) 1743 | 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 7. Mesori (Misra) 1743\nStatus: 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270814-ace185@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270814
+DTEND;VALUE=DATE:20270815
+SUMMARY:📅 8. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 8. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270815-fe9131@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270815
+DTEND;VALUE=DATE:20270816
+SUMMARY:📅 9. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 9. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270816-ad6def@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270816
+DTEND;VALUE=DATE:20270817
+SUMMARY:📅 10. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 10. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270817-e98b49@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270817
+DTEND;VALUE=DATE:20270818
+SUMMARY:📅 11. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 11. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270818-7450c4@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270818
+DTEND;VALUE=DATE:20270819
+SUMMARY:📅 12. Mesori (Misra) 1743 | 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 12. Mesori (Misra) 1743\nStatus: 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270819-9712ec@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270819
+DTEND;VALUE=DATE:20270820
+SUMMARY:📅 13. Mesori (Misra) 1743 | 🎉 Verklärung des Herrn
+DESCRIPTION:Koptisches Datum: 13. Mesori (Misra) 1743\nStatus: 🎉 Verklärung des Herrn
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270820-9577c7@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270820
+DTEND;VALUE=DATE:20270821
+SUMMARY:📅 14. Mesori (Misra) 1743 | 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+DESCRIPTION:Koptisches Datum: 14. Mesori (Misra) 1743\nStatus: 🥗 Fasten der Hl. Maria (Mittwoch/Freitag - Streng)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270821-2b57d5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270821
+DTEND;VALUE=DATE:20270822
+SUMMARY:📅 15. Mesori (Misra) 1743 | 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+DESCRIPTION:Koptisches Datum: 15. Mesori (Misra) 1743\nStatus: 🐟 Fasten der Hl. Maria (Fisch erlaubt)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270822-084857@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270822
+DTEND;VALUE=DATE:20270823
+SUMMARY:📅 16. Mesori (Misra) 1743 | 🎉 Aufnahme des Körpers der Hl. Maria
+DESCRIPTION:Koptisches Datum: 16. Mesori (Misra) 1743\nStatus: 🎉 Aufnahme des Körpers der Hl. Maria
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270823-9ef05a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270824
+SUMMARY:📅 17. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 17. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270824-f9f466@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270824
+DTEND;VALUE=DATE:20270825
+SUMMARY:📅 18. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 18. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270825-83f87b@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270825
+DTEND;VALUE=DATE:20270826
+SUMMARY:📅 19. Mesori (Misra) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 19. Mesori (Misra) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270826-4ceb43@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270826
+DTEND;VALUE=DATE:20270827
+SUMMARY:📅 20. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 20. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270827-7b89a8@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:📅 21. Mesori (Misra) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 21. Mesori (Misra) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270828-e53942@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270828
+DTEND;VALUE=DATE:20270829
+SUMMARY:📅 22. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 22. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270829-7a70d3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270830
+SUMMARY:📅 23. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 23. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270830-57d483@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270831
+SUMMARY:📅 24. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 24. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270831-171287@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:📅 25. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 25. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270901-5e513a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270901
+DTEND;VALUE=DATE:20270902
+SUMMARY:📅 26. Mesori (Misra) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 26. Mesori (Misra) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270902-4e02a5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:📅 27. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 27. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270903-abe53d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:📅 28. Mesori (Misra) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 28. Mesori (Misra) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270904-7fc14f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270904
+DTEND;VALUE=DATE:20270905
+SUMMARY:📅 29. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 29. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270905-0c0f76@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270905
+DTEND;VALUE=DATE:20270906
+SUMMARY:📅 30. Mesori (Misra) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 30. Mesori (Misra) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270906-a80320@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270906
+DTEND;VALUE=DATE:20270907
+SUMMARY:📅 1. Pi Kogi Enavot (Nasie) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 1. Pi Kogi Enavot (Nasie) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270907-916a0d@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:📅 2. Pi Kogi Enavot (Nasie) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 2. Pi Kogi Enavot (Nasie) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270908-e6b57c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270908
+DTEND;VALUE=DATE:20270909
+SUMMARY:📅 3. Pi Kogi Enavot (Nasie) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 3. Pi Kogi Enavot (Nasie) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270909-2f36a3@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:📅 4. Pi Kogi Enavot (Nasie) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 4. Pi Kogi Enavot (Nasie) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270910-049e4f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:📅 5. Pi Kogi Enavot (Nasie) 1743 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 5. Pi Kogi Enavot (Nasie) 1743\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270911-dfb607@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270911
+DTEND;VALUE=DATE:20270912
+SUMMARY:📅 6. Pi Kogi Enavot (Nasie) 1743 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 6. Pi Kogi Enavot (Nasie) 1743\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270912-fe7ca5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270912
+DTEND;VALUE=DATE:20270913
+SUMMARY:📅 2. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 2. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270913-3eab6e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270914
+SUMMARY:📅 3. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 3. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270914-ada830@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:📅 4. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 4. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270915-6b2cb0@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270916
+SUMMARY:📅 5. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 5. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270916-72d74e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270916
+DTEND;VALUE=DATE:20270917
+SUMMARY:📅 6. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 6. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270917-24545c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270918
+SUMMARY:📅 7. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 7. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270918-f25dc9@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270918
+DTEND;VALUE=DATE:20270919
+SUMMARY:📅 8. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 8. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270919-3636e4@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270919
+DTEND;VALUE=DATE:20270920
+SUMMARY:📅 9. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 9. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270920-f49527@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270921
+SUMMARY:📅 10. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 10. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270921-f20fc5@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:📅 11. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 11. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270922-75a5bd@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270922
+DTEND;VALUE=DATE:20270923
+SUMMARY:📅 12. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 12. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270923-b62fb8@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270923
+DTEND;VALUE=DATE:20270924
+SUMMARY:📅 13. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 13. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270924-470428@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270924
+DTEND;VALUE=DATE:20270925
+SUMMARY:📅 14. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 14. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270925-8f4e8f@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270925
+DTEND;VALUE=DATE:20270926
+SUMMARY:📅 15. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 15. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270926-dfc2ef@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20270927
+SUMMARY:📅 16. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 16. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270927-6fd835@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270927
+DTEND;VALUE=DATE:20270928
+SUMMARY:📅 17. Thout (Tout) 1744 | 🎉 Fest der Kreuzerhöhung (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 17. Thout (Tout) 1744\nStatus: 🎉 Fest der Kreuzerhöhung (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270928-90efa8@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:📅 18. Thout (Tout) 1744 | 🎉 Fest der Kreuzerhöhung (Kein Fasten)
+DESCRIPTION:Koptisches Datum: 18. Thout (Tout) 1744\nStatus: 🎉 Fest der Kreuzerhöhung (Kein Fasten)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270929-1d2573@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270929
+DTEND;VALUE=DATE:20270930
+SUMMARY:📅 19. Thout (Tout) 1744 | ✝️ Fest der Kreuzerhöhung (Fastentag Mi/Fr)
+DESCRIPTION:Koptisches Datum: 19. Thout (Tout) 1744\nStatus: ✝️ Fest der Kreuzerhöhung (Fastentag Mi/Fr)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20270930-ce5012@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:📅 20. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 20. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271001-b33422@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:📅 21. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 21. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271002-b84b44@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271003
+SUMMARY:📅 22. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 22. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271003-9757dd@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271003
+DTEND;VALUE=DATE:20271004
+SUMMARY:📅 23. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 23. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271004-3618da@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271004
+DTEND;VALUE=DATE:20271005
+SUMMARY:📅 24. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 24. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271005-596a30@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+SUMMARY:📅 25. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 25. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271006-ad2a20@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271007
+SUMMARY:📅 26. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 26. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271007-ad743e@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:📅 27. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 27. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271008-ef177a@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271008
+DTEND;VALUE=DATE:20271009
+SUMMARY:📅 28. Thout (Tout) 1744 | 🥗 Fastentag (Mittwoch/Freitag)
+DESCRIPTION:Koptisches Datum: 28. Thout (Tout) 1744\nStatus: 🥗 Fastentag (Mittwoch/Freitag)
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:coptic-20271009-31e48c@kalender
+DTSTAMP:20261009T110640Z
+DTSTART;VALUE=DATE:20271009
+DTEND;VALUE=DATE:20271010
+SUMMARY:📅 29. Thout (Tout) 1744 | Kein Fasten
+DESCRIPTION:Koptisches Datum: 29. Thout (Tout) 1744\nStatus: Kein Fasten
+STATUS:CONFIRMED
+END:VEVENT
 END:VCALENDAR
