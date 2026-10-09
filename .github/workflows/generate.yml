@@ -30,8 +30,8 @@ jobs:
 
       - name: Änderungen committen und pushen
         run: |
-          git config local user.email "action@github.com"
-          git config local user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action"
           git add kalender.ics
           git commit -m "Auto-update kalender.ics" || exit 0
-          git push 
+          git push origin main
